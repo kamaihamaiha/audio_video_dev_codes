@@ -19,20 +19,24 @@
       ((const uint8_t*)(x))[1])
 #endif
 
+/*特征码*/
 static int alloc_and_copy(AVPacket *out,
                           const uint8_t *sps_pps, uint32_t sps_pps_size,
                           const uint8_t *in, uint32_t in_size) {
   uint32_t offset = out->size;
+  // sps/pps Start code(4个字节): 0x 00 00 00 01
+  // 非 sps/pps Start code(3个字节):  0x 00 00 01
   uint8_t nal_header_size = offset ? 3 : 4;
   int err;
 
+  // 对 packet 数据扩容
   err = av_grow_packet(out, sps_pps_size + in_size + nal_header_size);
   if (err < 0)
     return err;
 
   if (sps_pps)
-    memcpy(out->data + offset, sps_pps, sps_pps_size);
-  memcpy(out->data + sps_pps_size + nal_header_size + offset, in, in_size);
+    memcpy(out->data + offset, sps_pps, sps_pps_size); // 先 copy sps_pps 数据
+  memcpy(out->data + sps_pps_size + nal_header_size + offset, in, in_size); // 再 copy 数据帧
   if (!offset) {
     AV_WB32(out->data + sps_pps_size, 1);
   } else {
