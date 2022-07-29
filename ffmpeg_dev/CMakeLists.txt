@@ -12,7 +12,8 @@ include_directories(${FFMPEG_DIR}/include/)
 # ffmpeg 库文件
 link_directories(${FFMPEG_DIR}/lib/)
 
-add_executable(ffmpeg_dev basic/extr_video.c)
+add_executable(ffmpeg_dev basic/remuxing.c)
+#add_executable(ffmpeg_dev basic/extr_video.c)
 #add_executable(ffmpeg_dev basic/extra_audio.c)
 #add_executable(ffmpeg_dev basic/media_info.c)
 #add_executable(ffmpeg_dev basic/ffmpeg_list.c)
