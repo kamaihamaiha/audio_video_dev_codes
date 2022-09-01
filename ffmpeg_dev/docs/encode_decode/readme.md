@@ -54,3 +54,22 @@ clang -g -o demo decode_video.c `pkg-config --libs libavformat libavcodec libsws
 
 
 ### AAC编码
+
+[代码](../../middle/encode_audio.c)
+  - 编译命令：
+    ```shell
+    gcc -g -o demo encode_audio.c `pkg-config --libs libavcodec`
+    ```
+  - 执行程序   
+    `./demo demo.aac`
+    
+
+- 编码流程与视频相同
+  - 1.添加头文件
+  - 2.注册编解码器
+  - 3.通过名字找到编解码器
+  - 4.设置参数
+  - 5.打开编解码器
+  - 6.获取数据
+  - 7.编码
+- 编码函数：`avcodec_encodec_audio2`
