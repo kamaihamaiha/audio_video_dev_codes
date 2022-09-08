@@ -1,5 +1,8 @@
 ## SDL 使用
 
+- [基本使用步骤](#基本使用)
+- [SDL 窗口渲染](#窗口渲染)
+
 ### 基本使用
 [代码](../../SDL/first.c)   
   - 编译命令：` gcc -g -o demo first.c `pkg-config --cflags --libs sdl2``
@@ -14,3 +17,9 @@
 - 先查看下 SDL 库的头文件路径：`pkg-config --cflgs sdl2`
   - 或者用 `brew info sdl2`
 - 然后在 CMakeLists.txt 中引入路径
+
+### 窗口渲染
+我在 mac 上无法看到窗口，值看到 Dock view 栏有个终端的图标   
+- `SDL_CreateRender()/SDL_DestoryRender()`
+- `SDL_RenderClear()`
+- `SDL_RenderPresent()`

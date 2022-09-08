@@ -10,7 +10,8 @@ set(CMAKE_C_STANDARD 99)
 set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.3.2_3)
 
 # SDL 安装路径
-set(SDL_DIR /usr/local/Cellar/sdl2/2.0.14_1)
+#set(SDL_DIR /usr/local/Cellar/sdl2/2.0.14_1)
+set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
 
 # ffmpeg 头文件
 include_directories(${FFMPEG_DIR}/include/)
