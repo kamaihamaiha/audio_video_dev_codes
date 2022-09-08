@@ -1,6 +1,6 @@
 ## SDL 音视频渲染
 
-- SDL 编译与安装
+- [SDL 编译与安装](./compile_and_install.md)
 - 使用 SDL 基本步骤
 - SDL 窗口渲染
 - SDL 处理事件
