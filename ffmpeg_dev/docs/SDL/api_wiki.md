@@ -2,6 +2,7 @@
 
 - [基本使用步骤](#基本使用)
 - [SDL 窗口渲染](#窗口渲染)
+- [SDL 事件基本原理](#事件基本原理)
 
 ### 基本使用
 [代码](../../SDL/first.c)   
@@ -23,3 +24,24 @@
 - `SDL_CreateRender()/SDL_DestoryRender()`
 - `SDL_RenderClear()`
 - `SDL_RenderPresent()`
+
+### 事件基本原理
+
+[代码](../../SDL/sdl_event.c)
+
+- SDL 将所有事件都存放在一个队列中
+- 所有对事件的操作，其实就是对队列的操作
+
+#### 事件种类
+
+- SDL_WindowEvent: 
+- SDL_KeyboardEvent: 
+- SDL_MouseMotionEvent: 
+- 自定义事件: 
+
+#### 事件处理
+
+- SDL_PollEvent: 轮询处理
+- SDL_WaitEvent: 有事件时，激活线程处理
+
+#### toto 要熟悉常见事件类型
