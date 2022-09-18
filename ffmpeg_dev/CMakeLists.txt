@@ -25,7 +25,8 @@ link_directories(${FFMPEG_DIR}/lib/)
 # SDL 库文件
 link_directories(${SDL_DIR}/lib/)
 
-add_executable(ffmpeg_dev  SDL/sdl_texture.c)
+add_executable(ffmpeg_dev  SDL/yuv_player.c)
+#add_executable(ffmpeg_dev  SDL/sdl_texture.c)
 #add_executable(ffmpeg_dev  SDL/sdl_event.c)
 #add_executable(ffmpeg_dev  SDL/first.c)
 #add_executable(ffmpeg_dev middle/decode_video.c)
