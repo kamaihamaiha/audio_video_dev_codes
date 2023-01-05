@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[]) {
 
+  SDL_Event event;
   SDL_Window *window = NULL;
   SDL_Renderer *render = NULL;
   SDL_Init(SDL_INIT_VIDEO);
@@ -23,7 +24,27 @@ int main(int argc, char *argv[]) {
   SDL_SetRenderDrawColor(render, 200, 40, 120, 255);
   SDL_RenderPresent(render);
 
-  SDL_Delay(10000);
+  // 处理事件. 参考：https://www.jianshu.com/p/f9437ae573e4
+  int quit = 0;
+  while (!quit) {
+    while (SDL_PollEvent(&event)) {
+      if (event.type == SDL_QUIT) {
+        quit = 1;
+      } else {
+        SDL_Log("event type is %d", event.type);
+      }
+    }
+  }
+  /*do { // 这个是课程方法，mac 上不行
+    SDL_WaitEvent(&event);
+    switch (event.type) {
+      case SDL_QUIT:
+        quit = 0;
+        break;
+      default:
+        SDL_Log("event type is %d", event.type);
+    }
+  } while (!quit);*/
 
   __DWINDOW:
   SDL_DestroyWindow(window);
