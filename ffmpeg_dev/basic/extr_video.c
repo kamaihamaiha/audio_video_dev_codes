@@ -160,8 +160,8 @@ int h264_mp4toannexb(AVFormatContext *fmt_ctx, AVPacket *in, FILE *dst_fd) {
     /* prepend only to the first type 5 NAL unit of an IDR picture, if no sps/pps are already present */
     if (/*s->new_idr && */unit_type == 5 /*&& !s->idr_sps_seen && !s->idr_pps_seen*/) {
 
-      h264_extradata_to_annexb(fmt_ctx->streams[in->stream_index]->codec->extradata,
-                               fmt_ctx->streams[in->stream_index]->codec->extradata_size,
+      h264_extradata_to_annexb(fmt_ctx->streams[in->stream_index]->codecpar->extradata,
+                               fmt_ctx->streams[in->stream_index]->codecpar->extradata_size,
                                &spspps_pkt,
                                AV_INPUT_BUFFER_PADDING_SIZE);
 
@@ -225,7 +225,7 @@ int main(int argc, char *argv[]) {
   }
 
   /*register all formats and codec*/
-  av_register_all();
+//  av_register_all();
 
   dst_fd = fopen(dst_filename, "wb");
   if (!dst_fd) {
