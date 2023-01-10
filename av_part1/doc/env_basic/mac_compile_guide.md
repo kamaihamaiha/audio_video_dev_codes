@@ -83,7 +83,7 @@ sudo tar xzvf yasm.tar.gz -C /usr/local/
 # 3. 切换目录
 cd /usr/local/yasm-1.20
 # 4. 运行
-sudo .configure
+sudo ./configure
 # 5. 编译文件
 sudo make
 # 6. 安装
