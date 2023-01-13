@@ -66,3 +66,8 @@
 
 ---
 
+### 当前目录介绍
+
+- ffmpeg_dev: 慕课网课程练习代码
+- ffmpeg_note: 《FFmpeg从入门到精通》整理的笔记
+- ffmpeg_tutorial: ffmpeg mac 上的开发实战

@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+
+project(ffmpeg_tutorial LANGUAGES CXX)
+
+# 加入自己定义的头文件目录
+include_directories(${PROJECT_SOURCE_DIR}/include)
+# 加入 ffmpeg 的头文件目录
+include_directories(${PROJECT_SOURCE_DIR}/demo/dep/FFmpeg/include)
+
+# 加入自己定义的 cpp 源代码目录，并把所有的源代码加入到 src_codes 中，给后面遍历所有的 demo 程序用
+set(src_dir ${PROJECT_SOURCE_DIR}/src)
+file(GLOB src_codes ${src_dir}/*.cpp)
+
+set(demo_dir ${PROJECT_SOURCE_DIR}/demo)
+file(GLOB demo_codes ${demo_dir}/*.cpp)
+
+# 把 ffmpeg 的动态库添加到工程中
+set(ffmpeg_libs_dir ${PROJECT_SOURCE_DIR}/demo/dep/FFmpeg/libs)
+link_directories(${ffmpeg_libs_dir})
+
+# 查找所有的 ffmpeg 动态库文件
+file(GLOB ffmpeg_dylibs ${ffmpeg_libs_dir}/*.dylib)
+
+
+
+foreach(code_file ${demo_codes})
+    # 将 cpp 文件的全路径转成 文件名
+    string(REGEX MATCH "[^/]+$" demo_file ${code_file}) 
+    message("code_file: "${code_file} ", demo_file: " ${demo_file})
+    # 将 cpp 文件名转成 没有扩展名的文件名，作为下一步可执行程序名
+    string(REPLACE ".cpp" "" demo_basename ${demo_file})
+    message("demo_basename: " ${demo_basename})
+    add_executable(${demo_basename} ${code_file} ${src_codes})
+    # 然后把库文件链接到可执行程序中
+    target_link_libraries(${demo_basename} ${ffmpeg_dylibs})
+    
+endforeach()
