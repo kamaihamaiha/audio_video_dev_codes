@@ -3,6 +3,7 @@
 #include <iostream>
 
 #include "io_data.h"
+#include "video_encoder_core.h"
 
 using namespace std;
 
@@ -37,7 +38,18 @@ int main(int argc, char **argv){
     }
 
     // ...
+    ret = init_video_encoder(codec_name);
+    if (ret < 0){
+        goto failed;
+    }
 
+    ret = encoding(50);
+    if (ret < 0){
+        goto failed;
+    }
+
+failed:
+    destroy_video_encoder();
     close_input_output_files();
-    
+    return 0;
 }

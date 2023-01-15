@@ -14,3 +14,5 @@ int32_t read_yuv_to_frame(AVFrame *frame);
 
 // 写出码流数据
 void write_pkt_to_file(AVPacket *pkt);
+
+int showError(int errorCode, const char* msg);

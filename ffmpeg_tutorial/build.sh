@@ -8,4 +8,4 @@ cmake .. # 在临时目录中创建工程
 make
 # ./hello
 # ./cmd-dir .
-./video_encoder README.md my_input_file my_out_put_file h264
+./video_encoder /Users/kk/Documents/videos/martin.yuv output.h264 libx264

@@ -49,7 +49,7 @@ int32_t init_video_encoder(const char* codec_name){
 
     // step4
     codec_ctx->profile = FF_PROFILE_H264_HIGH;
-    codec_ctx->bit_rate = 2,000,000;
+    codec_ctx->bit_rate = 2000000;
     codec_ctx->width = 1280;
     codec_ctx->height = 720;
     codec_ctx->gop_size = 10; // 关键帧
@@ -98,5 +98,71 @@ int32_t init_video_encoder(const char* codec_name){
 
 void destroy_video_encoder(){
     avcodec_free_context(&codec_ctx);
+    av_frame_free(&frame);
+    av_packet_free(&pkt);
 }
 
+/**
+ * 编码一帧图像数据
+ * @param flushing
+ * @return
+ */
+static int32_t encode_frame(bool flushing) {
+    int32_t result = 0;
+    if(!flushing){
+        std::cout << "Send frame to encoder with pts: " << frame->pts << std::endl;
+    }
+
+    result = avcodec_send_frame(codec_ctx, flushing ? nullptr : frame);
+    if (result < 0){
+        std::cerr << "Error: avcodec_send_frame failed." << std::endl;
+        return result;
+    }
+
+    while (result >= 0) {
+        result = avcodec_receive_packet(codec_ctx, pkt);
+        if (result == AVERROR(EAGAIN) || result == AVERROR_EOF) {
+            return 1;
+        } else if (result < 0) {
+            std::cerr << "Error: avcodec_receive_packet failed." << std::endl;
+            return result;
+        }
+
+        if (flushing){
+            std::cout << "Flushing:";
+        }
+        std::cout << "Got encoded package with dts: " << pkt->dts << ", pts: " << pkt->pts << ", " << std::endl;
+        write_pkt_to_file(pkt);
+    }
+    return 0;
+}
+int32_t encoding(int32_t frame_cnt){
+    int ret = 0;
+    for(size_t i = 0; i < frame_cnt; i++) {
+        ret = av_frame_make_writable(frame);
+        if (ret < 0){
+            // tips error
+            return showError(ret, "Error: could not av_frame_make_writable.");
+        }
+
+        ret = read_yuv_to_frame(frame);
+        if (ret < 0) {
+            //  tips error
+            return showError(ret, "Error: read_yuv_to_frame failed.");
+        }
+        frame->pts = i;
+
+        ret = encode_frame(false);
+        if (ret < 0) {
+            //  tips error
+            return showError(ret, "Error: encode_frame failed.");
+        }
+    }
+    ret = encode_frame(true);
+    if (ret < 0) {
+        //  tips error
+        return showError(ret, "Error: flushing failed.");
+    }
+
+    return 0;
+}

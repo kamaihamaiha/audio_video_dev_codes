@@ -75,3 +75,8 @@ int32_t read_yuv_to_frame(AVFrame *frame){
 void write_pkt_to_file(AVPacket *pkt){
     fwrite(pkt->data, 1, pkt->size, output_file);
 }
+
+int showError(int errorCode, const char* msg) {
+    std::cerr << std::string(msg) << std::endl;
+    return errorCode;
+}
