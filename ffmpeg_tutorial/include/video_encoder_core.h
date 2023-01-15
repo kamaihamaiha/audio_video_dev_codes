@@ -4,7 +4,7 @@
 
 
 // init video encoder
-int32_t init_video_encoder(const char* *codec_name);
+int32_t init_video_encoder(const char* codec_name);
 
 
 // destroy video encoder

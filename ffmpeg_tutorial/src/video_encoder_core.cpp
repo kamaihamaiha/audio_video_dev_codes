@@ -1,4 +1,5 @@
 #include "video_encoder_core.h"
+#include "io_data.h"
 #include <iostream>
 #include <string>
 
@@ -94,3 +95,8 @@ int32_t init_video_encoder(const char* codec_name){
 
     return 0;
 }
+
+void destroy_video_encoder(){
+    avcodec_free_context(&codec_ctx);
+}
+
