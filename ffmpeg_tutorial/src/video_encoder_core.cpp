@@ -1,4 +1,4 @@
-#include "video_encoder.h"
+#include "video_encoder_core.h"
 #include <iostream>
 #include <string>
 
