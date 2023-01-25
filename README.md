@@ -68,6 +68,8 @@
 
 ### 当前目录介绍
 
-- ffmpeg_dev: 慕课网课程练习代码
-- ffmpeg_note: 《FFmpeg从入门到精通》整理的笔记
-- ffmpeg_tutorial: ffmpeg mac 上的开发实战
+- av_part1: [音视频系统入门](./av_part1/README.md)
+
+- ffmpeg_dev: [慕课网课程练习代码](./ffmpeg_dev/README.md)
+- ffmpeg_note: [《FFmpeg从入门到精通》整理的笔记](./ffmpeg_note/readme.md)
+- ffmpeg_tutorial: [ffmpeg mac 上的开发实战](./ffmpeg_tutorial/readme.md)
