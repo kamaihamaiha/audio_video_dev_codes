@@ -76,7 +76,35 @@ void write_pkt_to_file(AVPacket *pkt){
     fwrite(pkt->data, 1, pkt->size, output_file);
 }
 
+int32_t write_frame_to_yuv(AVFrame* frame) {
+    uint8_t **pBuf = frame->data;
+    int *pStride = frame->linesize;
+    for(size_t  i = 0; i < 3; i++) {
+        int32_t width = (i == 0 ? frame->width : frame->width / 2);
+        int32_t height = (i == 0 ? frame->height : frame->height / 2);
+
+        for (size_t j = 0; j < height; ++j) {
+            fwrite(pBuf[i], 1, width, output_file);
+            pBuf[i] += pStride[i];
+        }
+    }
+    return 0;
+}
+
 int showError(int errorCode, const char* msg) {
     std::cerr << std::string(msg) << std::endl;
     return errorCode;
+}
+
+int32_t end_of_input_file(){
+    return feof(input_file);
+}
+
+int32_t read_data_to_buffer(uint8_t *buf, int32_t size, int32_t& out_size) {
+    int32_t read_size = fread(buf, 1, size, input_file);
+    if (read_size == 0) {
+        return showError(-1, "Error: read_data_to_buf failed.");
+    }
+    out_size = read_size;
+    return 0;
 }
