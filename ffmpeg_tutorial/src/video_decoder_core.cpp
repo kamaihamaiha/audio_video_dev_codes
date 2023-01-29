@@ -1,4 +1,4 @@
-#include <ostream>
+#include <iostream>
 #include "io_data.h"
 #include "video_decoder_core.h"
 
@@ -8,7 +8,8 @@ extern "C" {
 
 #define INBUF_SIZE 4096
 
-static AVCodec *codec = nullptr;
+
+static const AVCodec *codec = nullptr;
 static AVCodecContext *codec_ctx = nullptr;
 static AVCodecParserContext *parser = nullptr; // 码流解析器的句柄
 
@@ -19,21 +20,21 @@ static int32_t decode_packet(bool flushing){
   int32_t ret = 0;
   ret = avcodec_send_packet(codec_ctx, flushing ? nullptr : pkt);
   if (ret < 0) {
-    return showError(-1, "Error: failed to send packet.")
+    return showError(-1, "Error: failed to send packet.");
   }
   while (ret >= 0) {
     ret = avcodec_receive_frame(codec_ctx, frame);
     if (ret == AVERROR(EAGAIN) || ret == AVERROR_EOF) {
       return 1;
     } else if (ret < 0) {
-      return showError(-1. "Error: failed to receive frame.")
+      return showError(-1, "Error: failed to receive frame.");
     }
 
     if (flushing) {
-      cout << "Flushing:";
+      std::cout << "Flushing:";
     }
 
-    cout << "Write frame pic_num:" << frame->coded_picture_number << endl;
+    std::cout << "Write frame pic_num:" << frame->coded_picture_number << std::endl;
     write_frame_to_yuv(frame);
   }
 }
@@ -69,7 +70,7 @@ int32_t decoding() {
   while (!end_of_input_file()) {
     result = read_data_to_buffer(inbuf, INBUF_SIZE, data_size);
     if (result < 0){
-      return showError(-1, "Error: read_data_to_buf failed.")
+      return showError(-1, "Error: read_data_to_buf failed.");
     }
 
     data = inbuf;
@@ -84,8 +85,8 @@ int32_t decoding() {
       data_size -= result;
 
       if (pkt->size) {
-         cout << "Parsed packet size:" << pkt->size << endl;
-         decode_packet(false)
+         std::cout << "Parsed packet size:" << pkt->size << std::endl;
+         decode_packet(false);
       }
     }
     decode_packet(true);
@@ -97,8 +98,8 @@ int32_t decoding() {
 
 void destroy_video_decoder(){
     av_parser_close(parser);
-    avcodec_free_context(codec_ctx);
-    av_frame_free(frame);
-    av_packet_free(pkt);
+    avcodec_free_context(&codec_ctx);
+    av_frame_free(&frame);
+    av_packet_free(&pkt);
 }
 
