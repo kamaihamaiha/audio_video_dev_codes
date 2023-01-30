@@ -49,13 +49,13 @@ int32_t init_video_encoder(const char* codec_name){
 
     // step4
     codec_ctx->profile = FF_PROFILE_H264_HIGH;
-    codec_ctx->bit_rate = 2000000;
-    codec_ctx->width = 1280;
-    codec_ctx->height = 720;
+    codec_ctx->bit_rate = 822363;
+    codec_ctx->width = 852;
+    codec_ctx->height = 480;
     codec_ctx->gop_size = 10; // 关键帧
-    codec_ctx->time_base = (AVRational){1, 25}; 
+    codec_ctx->time_base = (AVRational){1, 48};
     codec_ctx->framerate = (AVRational){25, 1};
-    codec_ctx->max_b_frames = 3; // 在每个 I帧和 P帧之间插入 3 个B帧
+    codec_ctx->max_b_frames = 4; // 在每个 I帧和 P帧之间插入 3 个B帧
     codec_ctx->pix_fmt = AV_PIX_FMT_YUV420P;
 
     if(codec->id == AV_CODEC_ID_H264) {
