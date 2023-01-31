@@ -20,6 +20,8 @@ int32_t write_frame_to_yuv(AVFrame* frame);
 
 int showError(int errorCode, const char* msg);
 
+int showError(int errorCode, const char* msg, const char* errMsg);
+
 // 把从输入文件中读取的数据添加到缓存
 int32_t read_data_to_buffer(uint8_t *buf, int32_t size, int32_t& out_size);
 

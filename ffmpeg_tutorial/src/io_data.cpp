@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string.h>
 #include <stdlib.h>
+#include "libavutil/avutil.h"
 
 static FILE *input_file = nullptr;
 static FILE *output_file = nullptr;
@@ -95,6 +96,12 @@ int showError(int errorCode, const char* msg) {
     std::cerr << std::string(msg) << std::endl;
     return errorCode;
 }
+
+int showError(int errorCode, const char* msg, const char* errMsg) {
+    std::cerr << std::string(msg) << ": " << errMsg << std::endl;
+    return errorCode;
+}
+
 
 int32_t end_of_input_file(){
     return feof(input_file);

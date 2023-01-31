@@ -16,11 +16,14 @@ static AVCodecParserContext *parser = nullptr; // 码流解析器的句柄
 static AVFrame *frame = nullptr;
 static AVPacket *pkt = nullptr;
 
+/**
+ * 界面视频码流包
+*/
 static int32_t decode_packet(bool flushing){
   int32_t ret = 0;
   ret = avcodec_send_packet(codec_ctx, flushing ? nullptr : pkt);
   if (ret < 0) {
-    return showError(-1, "Error: failed to send packet.");
+    return showError(ret, "Error: failed to send packet.", av_err2str(ret));
   }
   while (ret >= 0) {
     ret = avcodec_receive_frame(codec_ctx, frame);
