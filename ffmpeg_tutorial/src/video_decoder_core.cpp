@@ -9,7 +9,6 @@ extern "C" {
 #define INBUF_SIZE 4096
 
 
-static const AVCodec *codec = nullptr;
 static AVCodecContext *codec_ctx = nullptr;
 static AVCodecParserContext *parser = nullptr; // 码流解析器的句柄
 
@@ -44,7 +43,7 @@ static int32_t decode_packet(bool flushing){
 
 
 int32_t init_video_decoder(){
-  codec = avcodec_find_decoder(AV_CODEC_ID_H264);
+  const AVCodec *codec = avcodec_find_decoder(AV_CODEC_ID_H264);
   if (!codec)  return showError(-1, "Error: could not find codec.");
 
   parser = av_parser_init(codec->id);
@@ -89,11 +88,13 @@ int32_t decoding() {
 
       if (pkt->size) {
          std::cout << "Parsed packet size:" << pkt->size << std::endl;
-         decode_packet(false);
+         result = decode_packet(false);
+         if(result < 0) break;
       }
     }
-    decode_packet(true);
   }
+  result = decode_packet(true);
+  if(result < 0) return result;
 
   return 0;
 }

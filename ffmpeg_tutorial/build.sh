@@ -9,4 +9,4 @@ make
 # ./hello
 # ./cmd-dir .
 #./video_encoder /Users/kk/Documents/videos/martin.yuv output.h264 libx264
-./video_decoder /Users/kk/dev/code/audio_video_dev_codes/ffmpeg_dev/basic/v2/5-4/1.h264 out.yuv
+./video_decoder ~/Video/es.h264 output.yuv
