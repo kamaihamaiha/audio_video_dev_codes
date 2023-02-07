@@ -55,7 +55,7 @@ int main(int argc, char** argv){
         goto _ERROR;
     }
 
-    // todo 处理每一路流
+    // 处理每一路流
     // 申请空间
     av_stream_map = av_calloc(pFmtCtx->nb_streams, sizeof (int));
     if (!av_stream_map){
@@ -107,30 +107,24 @@ int main(int argc, char** argv){
         goto _ERROR;
     } 
 
-    // step8: read video data from source file and write to target file
+    // step8: read video/audio/subtitle data from source file and write to target file
     while(av_read_frame(pFmtCtx, &pkt) >= 0){
-        if(pkt.stream_index == index) { // 是视频流
-            // 先改变时间戳: pts, dts
-            /**
-             * params2: 时间基
-             * params3: 时间基
-             * params4: 范围
-            */
-            pkt.pts = av_rescale_q_rnd(pkt.pts, inStream->time_base, outStream->time_base, 
-            (AV_ROUND_PASS_MINMAX | AV_ROUND_NEAR_INF));
+        AVStream *inStream, *outStream;
 
-            // 视频的 dts 计算
-            pkt.dts = av_rescale_q_rnd(pkt.dts, inStream->time_base, outStream->time_base, 
-            (AV_ROUND_PASS_MINMAX | AV_ROUND_NEAR_INF)); 
-
-            pkt.duration = av_rescale_q(pkt.duration, inStream->time_base, outStream->time_base);
-            pkt.stream_index = 0; // 因为只抽取了一路音频，输出文件也只有一路音频，所以 设置为 0
-            pkt.pos = -1; // 相对位置，设置为 -1，让系统自己计算
-
-            // 把音频数据写到文件中
-            av_interleaved_write_frame(targetFmtCtx, &pkt);
-            av_packet_unref(&pkt); // 释放 pkt 
+        inStream = pFmtCtx->streams[pkt.stream_index];
+        if(av_stream_map[pkt.stream_index] < 0) {
+            av_packet_unref(&pkt);
+            continue;
         }
+        pkt.stream_index = av_stream_map[pkt.stream_index];
+
+        outStream = targetFmtCtx->streams[pkt.stream_index];
+        av_packet_rescale_ts(&pkt, inStream->time_base, outStream->time_base);
+        pkt.pos = -1; // 相对位置，设置为 -1，让系统自己计算
+
+        // 把音频数据写到文件中
+        av_interleaved_write_frame(targetFmtCtx, &pkt);
+        av_packet_unref(&pkt); // 释放 pkt
     }
 
     // step9: write meida tail info 
