@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "io_data.h"
+#include "audio_encoder_core.h"
 
 using namespace std;
 
@@ -28,14 +29,23 @@ int main(int argc, char ** argv){
 
   // open file
   int32_t ret = open_input_output_files(input_file_name, output_file_name);
-  if (ret < 0)
-  {
+  if (ret < 0) {
     return ret;
   }
 
-  // todo
+  // ...
+  ret = init_audio_encoder(codec_name);
+  if (ret < 0) {
+    goto failed;
+  }
 
+  ret = audio_encoding();
+  if (ret < 0) {
+    goto failed;
+  }
 
+failed:
+  destroy_audio_encoder();
   close_input_output_files();
   return 0;
 }

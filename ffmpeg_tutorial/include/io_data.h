@@ -12,6 +12,8 @@ void close_input_output_files();
 // 读取 yuv 数据
 int32_t read_yuv_to_frame(AVFrame *frame);
 
+int32_t read_pcm_to_frame(AVFrame *frame, AVCodecContext *codec_ctx);
+
 // 写出码流数据
 void write_pkt_to_file(AVPacket *pkt);
 

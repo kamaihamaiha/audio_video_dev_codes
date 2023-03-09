@@ -9,4 +9,5 @@ make
 # ./hello
 # ./cmd-dir .
 #./video_encoder /Users/kk/Documents/videos/martin.yuv output.h264 libx264
-./video_decoder ~/Video/es.h264 output.yuv
+#./video_decoder ~/Video/es.h264 output.yuv
+./audio_encoder ~/Music/foo.pcm output.mp3 MP3

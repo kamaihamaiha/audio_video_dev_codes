@@ -12,10 +12,11 @@ extern "C" {
 }
 
 #include "audio_encoder_core.h"
+#include "io_data.h"
 
 using namespace std;
 
-static AVCodec *codec = nullptr;
+static const AVCodec *codec = nullptr;
 static AVCodecContext *codec_ctx = nullptr;
 static AVFrame *frame = nullptr;
 static AVPacket *pkt = nullptr;
@@ -87,6 +88,66 @@ int32_t init_audio_encoder(const char* codec_name){
   }
 
   return 0;
+}
+
+/**
+ * 编码音频数据
+ * @param flushing
+ * @return
+ */
+static int32_t encode_frame(bool flushing) {
+  int32_t result = 0;
+  /*if(!flushing){
+    std::cout << "Send frame to encoder with pts: " << frame->pts << std::endl;
+  }*/
+
+  result = avcodec_send_frame(codec_ctx, flushing ? nullptr : frame);
+  if (result < 0){
+    std::cerr << "Error: avcodec_send_frame failed." << std::endl;
+    return result;
+  }
+
+  while (result >= 0) {
+    result = avcodec_receive_packet(codec_ctx, pkt);
+    if (result == AVERROR(EAGAIN) || result == AVERROR_EOF) {
+      return 1;
+    } else if (result < 0) {
+      std::cerr << "Error: avcodec_receive_packet failed." << std::endl;
+      return result;
+    }
+
+    if (flushing){
+      std::cout << "Flushing:";
+    }
+    write_pkt_to_file(pkt);
+  }
+  return 0;
+}
+
+
+int32_t audio_encoding(){
+  int32_t ret = 0;
+  while (!end_of_input_file()) {
+    ret = read_pcm_to_frame(frame, codec_ctx);
+    if (ret < 0) {
+      std::cerr << "Error: read_pcm_to_frame failed." << std::endl;
+      return -1;
+    }
+  }
+
+  ret = encode_frame(false);
+  if (ret < 0) {
+    std::cerr << "Error: flushing failed." << std::endl;
+    return ret;
+  }
+
+  return 0;
+}
+
+void destroy_audio_encoder() {
+  av_frame_free(&frame);
+  av_packet_free(&pkt);
+  avcodec_free_context(&codec_ctx);
 }
 
 
