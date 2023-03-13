@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/Users/kk/Desktop/ffmpeg-android-so/libs/armeabi-v7a
+includedir=/Users/kk/Desktop/ffmpeg-android-so/includes/armeabi-v7a
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 5.6.100
+Requires: 
+Requires.private: libavutil >= 56.35.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm
+Cflags: -I${includedir}
