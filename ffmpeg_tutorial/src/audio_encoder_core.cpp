@@ -51,10 +51,10 @@ int32_t init_audio_encoder(const char* codec_name){
   }
 
   // set audio encoder params
-  codec_ctx->bit_rate = 12800;
+  codec_ctx->bit_rate = 128000;
   codec_ctx->sample_fmt = AV_SAMPLE_FMT_FLTP; // 设置采样格式为 fltp
   codec_ctx->sample_rate = 44100;
-  codec_ctx->channel_layout = AV_CHANNEL_LAYOUT_STEREO; // 声道布局为立体声
+  codec_ctx->channel_layout = AV_CH_LAYOUT_STEREO; // 声道布局为立体声
   codec_ctx->channels = 2; // 双声道
 
   // open codec
