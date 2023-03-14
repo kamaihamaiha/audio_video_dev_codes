@@ -17,7 +17,7 @@
     - [音频](./doc/audio_wiki/README.md)
     - [视频](./doc/video_wiki/README.md)
 2. C 语言
-3. C ++  语言
+3. C ++ 语言
 4. [FFmpeg](./doc/ffmpeg_wiki/readme.md)
 5. Linux
 6. WebRTC
