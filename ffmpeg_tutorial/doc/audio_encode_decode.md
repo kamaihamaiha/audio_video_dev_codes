@@ -11,7 +11,7 @@
 - 录制后 copy 到电脑
 - 先用 ffmpeg 播放下
     ```shell
-    ffplay -ac 1 -ar ffplay -ac 1 -ar 44100 -f s16le foo.pcm
+    ffplay -ac 1 -ar 44100 -f s16le foo.pcm
     ```
 
 

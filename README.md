@@ -1,9 +1,10 @@
 ## 音视频开发笔记
 
-- 知识树
-- 课程
-- 开源项目
-- 行业大佬
+- [系统性学习音视频开发](./doc/systematic_study/readme.md)
+- [知识树](#知识树)
+- [课程](#课程)
+- [开源项目](#开源项目)
+- [行业大佬](#行业大佬)
 - [入门到提高任务列表](./task_list.md)
 - [代码项目说明](./project_wiki.md)
 - [Android 官方文档](https://developer.android.com/guide/topics/media)
@@ -13,9 +14,11 @@
 ### 知识树
 
 1. 音视频基础知识
+    - [音频](./doc/audio_wiki/README.md)
+    - [视频](./doc/video_wiki/README.md)
 2. C 语言
-3. C ++  语言
-4. FFmpeg
+3. C ++ 语言
+4. [FFmpeg](./doc/ffmpeg_wiki/readme.md)
 5. Linux
 6. WebRTC
 7. Android 上的音视频 API
@@ -34,6 +37,8 @@
 - [企业级流媒体服务器设计与开发（高级）](https://coding.imooc.com/class/387.html)
 - 《FFmpeg 从入门到精通》
 - Android 音视频开发任务列表
+- 开发商业级热门短视频App 掌握Jetpack组件库
+- [OpenCV 实战开发视频编辑器-夏曹俊](./course/xiacaojun/readme.md)
 
 ---
 
@@ -69,7 +74,6 @@
 ### 当前目录介绍
 
 - av_part1: [音视频系统入门](./av_part1/README.md)
-
 - ffmpeg_dev: [慕课网课程练习代码](./ffmpeg_dev/README.md)
-- ffmpeg_note: [《FFmpeg从入门到精通》整理的笔记](./ffmpeg_note/readme.md)
-- ffmpeg_tutorial: [ffmpeg mac 上的开发实战](./ffmpeg_tutorial/readme.md)
+- ffmpeg_note: [《FFmpeg从入门到精通》整理的笔记](./ffmpeg_note/README.md)
+- ffmpeg_tutorial: [ffmpeg mac 上的开发实战](./ffmpeg_tutorial/README.md)
