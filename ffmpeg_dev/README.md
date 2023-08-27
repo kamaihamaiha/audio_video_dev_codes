@@ -10,3 +10,7 @@
 - [FFmpeg 播放器核心功能开发](./docs/player_core/readme.md)
 - [Android 下使用 FFmpeg](./docs/using_in_android/readme.md)
 - [滤镜 Filter 的核心原理及实现](./docs/filter/readme.md)
+
+### 相关的技术博客
+
+- [FFmpeg连载1-环境搭建](https://juejin.cn/post/7088722660108009508)

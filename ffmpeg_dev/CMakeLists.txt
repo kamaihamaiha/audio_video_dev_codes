@@ -8,14 +8,16 @@ set(CMAKE_C_STANDARD 99)
 # ffmpeg 安装路径，可以用 brew info ffmpeg 获取
 #get_filename_component(parent_dir ${PROJECT_SOURCE_DIR} DIRECTORY)
 #set(FFMPEG_DIR “${parent_dir}/ffmpeg_tutorial/demo/dep/FFmpeg”)
- set(FFMPEG_DIR /usr/local/ffmpeg)
-#set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
+# set(FFMPEG_DIR /usr/local/ffmpeg)
+# 我自己的 MacBook Pro 上
+set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
 #set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.3.2_3)
 
 # SDL 安装路径
 #set(SDL_DIR /usr/local/Cellar/sdl2/2.0.14_1)
-#set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
-set(SDL_DIR /usr/local/Cellar/sdl2/2.26.2)
+# 我自己的 MacBook Pro 上
+set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
+#set(SDL_DIR /usr/local/Cellar/sdl2/2.26.2)
 
 # ffmpeg 头文件
 include_directories(${FFMPEG_DIR}/include/)
@@ -46,8 +48,8 @@ link_directories(${SDL_DIR}/lib/)
 #add_executable(ffmpeg_dev basic/log_demo.c)
 #add_executable(ffmpeg_dev basic/extr_video.c)
 # add_executable(ffmpeg_dev basic/avformat/demo_muxing.c)
-add_executable(ffmpeg_dev basic/v2/5-5/remux_v2.c)
-#add_executable(ffmpeg_dev main.c)
+#add_executable(ffmpeg_dev basic/v2/5-5/remux_v2.c)
+add_executable(ffmpeg_dev main.c)
 # 
 # 添加链接库
 target_link_libraries(
@@ -57,5 +59,7 @@ target_link_libraries(
         avdevice
         avfilter
         avformat
+        swresample
+        swscale
         sdl2
 )
