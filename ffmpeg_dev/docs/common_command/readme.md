@@ -157,6 +157,27 @@ ffmpeg -f avfoundation -i :0 out.wav
 
 ### 分解与复用命令
 
+![](../imgs/av_demuxer-and-muxer.png)
+
+```shell
+# mp4 -> flv
+ffmpeg -i demo.mp4 -vcodec copy -acodec copy demo.flv
+```
+注意: 可能会产生这个错误: ``Codec mpeg4 is not supported in the official FLV specification``; [原因参见](https://coding.imooc.com/learn/questiondetail/Dg8m5YZL1dQ6Wa4B.html)
+
+```shell
+# 抽取视频数据
+ffmpeg -i out.mp4 -an -vcodec copy out.h264
+```
+参数说明:
+- `-an`: 不要音频 
+
+同理抽取音频
+```shell
+# 抽取音频数据
+ffmpeg -i out.mp4 -vn -acodec copy out.aac
+```
+
 ### 处理原始数据命令
 
 ### 裁剪与合并命令
