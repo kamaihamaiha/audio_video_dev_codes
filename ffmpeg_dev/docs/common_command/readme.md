@@ -180,6 +180,36 @@ ffmpeg -i out.mp4 -vn -acodec copy out.aac
 
 ### 处理原始数据命令
 
+就是 ffmpeg 解码后得到的数据: pcm(音频)、yuv(视频)
+
+#### extra yuv
+
+```shell
+# 提取视频数据
+ffmpeg -i input.mp4 -an -c:v rawvideo -pix_fmt yuv420p out.yuv
+```
+
+播放原始数据 out.yuv; 注意要指定分辨率，因为原始数据不含有分辨率信息(抽取时终端有显示):
+```shell
+ffplay -s 640x360 out.yuv
+```
+`-s`: size
+
+#### extra pcm
+```shell
+ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -f s16le out.pcm
+```
+- `-ar`: audio sampling frequency
+- `-ac`: audio channels
+- `-f`: Force input or output file format. The format is normally auto detected for input files and guessed from the file extension for
+  output files, so this option is not needed in most cases.
+  
+#### play pcm
+```shell
+# 需要指定采样率、声道数和格式
+ffplay -ar 44100 -ac 2 -f s16le demo.pcm
+```
+
 ### 裁剪与合并命令
 
 ### 图片与视频互转命令
@@ -187,3 +217,52 @@ ffmpeg -i out.mp4 -vn -acodec copy out.aac
 ### 直播相关命令
 
 ### 滤镜命令
+
+比较复杂; 水印、画中画、裁剪、倍速
+
+![](../imgs/av_filter_process.png)
+
+#### crop 滤镜
+
+```shell
+ffmpeg -i input.mp4 -vf crop=in_w-200:in_h-200 -c:v libx264 -c:a copy out.mp4
+```
+- `-vf`: video filter
+- `crop`: format: `crop=out_w:out_h:x:y` 如果不指定 x:y 则默认是视频中心点
+- `in_w`: 本身的视频宽度; 上面的示例就是 本身的视频宽度减去200
+- `in_h`: 本身的视频高度
+- `-c:v`: video codec  
+
+可能会发生错误：
+```shell
+...
+[h264_videotoolbox @ 0x7ff09d80f000] Error: cannot create compression session: -12903
+[h264_videotoolbox @ 0x7ff09d80f000] Try -allow_sw 1. The hardware encoder may be busy, or not supported.
+Error initializing output stream 0:0 -- Error while opening encoder for output stream #0:0 - maybe incorrect parameters such as bit_rate, rate, width or height
+Conversion failed!
+```
+这个错误提示表明在尝试使用 h264_videotoolbox 编码器进行视频编码时出现了问题。h264_videotoolbox 是一个硬件加速的H.264编码器，它依赖于系统的硬件支持。
+根据错误信息中的建议，你可以尝试添加 -allow_sw 1 标志，以允许软件编码器来代替硬件编码器
+```shell
+# 加上 -allow_sw 1
+ffmpeg -i great_commander.mp4 -vf crop=in_w-200:in_h-200 -c:v h264 -allow_sw 1 -c:a copy out.mp4
+```
+
+#### 加水印
+
+```shell
+ffmpeg -i input.mp4 -i input.png -filter_complex "overlay=x:y" output.mp4
+```
+
+#### 缩放
+```shell
+# 640x360 视频缩放到 160x90
+ffmpeg -i input.mp4 -vf "scale=160:-1" out.mp4
+```
+备注: `scale=160:-1`: 宽度缩放到160，高度按照比例缩放
+
+#### 画中画
+
+```shell
+ffmpeg -re -i main.mp4 -vf "movie=second.mp4,scale=160x90[test]; [in][test] overlay [out]" -vcodec h264 out.mp4
+```
