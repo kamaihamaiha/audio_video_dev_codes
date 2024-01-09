@@ -212,9 +212,54 @@ ffplay -ar 44100 -ac 2 -f s16le demo.pcm
 
 ### 裁剪与合并命令
 
+```shell
+# 裁剪
+ffmpeg -i input.mp4 -ss 00:00:00 -t 10 out.ts
+
+# 合并
+ffmpeg -f concat -i inputs.txt out.mp5
+```
+
+#### 备注
+- `-ss`: start time
+- `-f concat`: 后面跟着要拼接的文件  
+- `inputs.txt`: 自己创建的文本文件，是文件列表；格式: file 'fileName'
+
+如果裁剪的是 mp4 拼接一块，然后播放会出问题。第一个部分播放正常，第二部分声音还正常，但是画面花了。因为编码不同了
+
 ### 图片与视频互转命令
 
+```shell
+# 视频转图片
+ffmpeg -i input.mp4 -r 1 -f image2 image-%3d.jpeg
+
+# 图片转视频
+ffmpeg -i image-%3d.jpeg out.mp4
+```
+
+**参数说明**:
+
+- `-r 1` 指定转换图片的帧率 为1
+- `-f image2`: 转成的图片格式为 image2
+- `image-%3d.jpeg`: 输出文件名；image-开头，三位数字结尾，后缀名为.jpeg
+
 ### 直播相关命令
+
+```shell
+# 直播推流
+ffmpeg -re -i input.mp4 -c copy -f flv rtmp://server/live/streamName
+
+# 直播拉流
+ffmpeg -i rtmp://server/live/streamName -c copy output.flv
+```
+**参数说明**:
+- `-re`: Read input at native frame rate
+- `-c`: 音视频；`-acodec`音频, `-vcodec`视频
+- `-f`: 推出去的格式
+- `rtmp://server/live/streamName`: 流服务器地址
+- 测试地址(目前没找到能用的): 
+  - rtmp://live.hkstv.hk.lxdns.com/live/hks1
+  - http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 
 ### 滤镜命令
 
