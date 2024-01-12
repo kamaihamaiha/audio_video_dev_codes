@@ -8,6 +8,7 @@
 - [入门到提高任务列表](./task_list.md)
 - [代码项目说明](./project_wiki.md)
 - [Android 官方文档](https://developer.android.com/guide/topics/media)
+- [Android 音视频开发-from Android开发高手课](doc/section_3.md)
 
 ---
 
