@@ -31,6 +31,35 @@ link_directories(${FFMPEG_DIR}/lib/)
 # SDL 库文件
 link_directories(${SDL_DIR}/lib/)
 
+# 指定输出目录为 out
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/out)
+
+file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/basic/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/basic/avformat/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/middle/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/SDL/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/work/*.c"
+        )
+
+# NAME_WE 去掉文件名后缀
+foreach(file ${files})
+    get_filename_component(name ${file} NAME_WE)
+    add_executable(${name} ${file})
+    target_compile_definitions(${name} PUBLIC DEBUG)
+
+    target_link_libraries(
+            ${name}
+            avcodec
+            avutil
+            avdevice
+            avfilter
+            avformat
+            swresample
+            swscale
+            sdl2
+    )
+endforeach()
+
 #add_executable(ffmpeg_dev  work/copy.c)
 #add_executable(ffmpeg_dev  SDL/yuv_player.c)
 #add_executable(ffmpeg_dev  SDL/sdl_texture.c)
@@ -49,9 +78,10 @@ link_directories(${SDL_DIR}/lib/)
 #add_executable(ffmpeg_dev basic/extr_video.c)
 # add_executable(ffmpeg_dev basic/avformat/demo_muxing.c)
 #add_executable(ffmpeg_dev basic/v2/5-5/remux_v2.c)
-add_executable(ffmpeg_dev main.c)
+#add_executable(ffmpeg_dev main.c)
 # 
 # 添加链接库
+#[[
 target_link_libraries(
         ffmpeg_dev
         avcodec
@@ -62,4 +92,4 @@ target_link_libraries(
         swresample
         swscale
         sdl2
-)
+)]]
