@@ -40,6 +40,7 @@
 - Android 音视频开发任务列表
 - 开发商业级热门短视频App 掌握Jetpack组件库
 - [OpenCV 实战开发视频编辑器-夏曹俊](./course/xiacaojun/readme.md)
+- [快速入门音视频技术](doc/smart_study_av/readme.md)
 
 ---
 
