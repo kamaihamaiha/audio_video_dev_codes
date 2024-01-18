@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
   }
 
   // param2: 流的索引值，直接写 0
-  // param4: 输出流（0）还是输出流（1）
+  // param4: 输入流（0）还是输出流（1）
   av_dump_format(fmt_ctx, 0, test_media_file, 0);
 
   avformat_close_input(&fmt_ctx);

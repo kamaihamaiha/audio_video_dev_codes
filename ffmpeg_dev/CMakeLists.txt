@@ -10,34 +10,35 @@ set(CMAKE_C_STANDARD 99)
 #set(FFMPEG_DIR “${parent_dir}/ffmpeg_tutorial/demo/dep/FFmpeg”)
 # set(FFMPEG_DIR /usr/local/ffmpeg)
 # 我自己的 MacBook Pro 上
-set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
-#set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.3.2_3)
+#set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
+set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/6.0)
 
 # SDL 安装路径
 #set(SDL_DIR /usr/local/Cellar/sdl2/2.0.14_1)
 # 我自己的 MacBook Pro 上
-set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
+#set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
 #set(SDL_DIR /usr/local/Cellar/sdl2/2.26.2)
 
 # ffmpeg 头文件
 include_directories(${FFMPEG_DIR}/include/)
 
 # SDL 头文件
-include_directories(${SDL_DIR}/include/SDL2)
+#include_directories(${SDL_DIR}/include/SDL2)
 
 # ffmpeg 库文件
 link_directories(${FFMPEG_DIR}/lib/)
 
 # SDL 库文件
-link_directories(${SDL_DIR}/lib/)
+#link_directories(${SDL_DIR}/lib/)
 
 # 指定输出目录为 out
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/out)
 
 file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/basic/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/basic/avformat/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/basic/practice/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/middle/*.c"
-        "${CMAKE_CURRENT_SOURCE_DIR}/SDL/*.c"
+#        "${CMAKE_CURRENT_SOURCE_DIR}/SDL/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/work/*.c"
         )
 
@@ -56,7 +57,7 @@ foreach(file ${files})
             avformat
             swresample
             swscale
-            sdl2
+#            sdl2
     )
 endforeach()
 
