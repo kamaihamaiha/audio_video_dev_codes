@@ -18,6 +18,11 @@ file(GLOB demo_codes ${demo_dir}/*.cpp)
 set(ffmpeg_libs_dir ${PROJECT_SOURCE_DIR}/demo/dep/FFmpeg/libs)
 link_directories(${ffmpeg_libs_dir})
 
+# x265 库
+set(ENV{LD_LIBRARY_PATH} ${PROJECT_SOURCE_DIR}/demo/dep/FFmpeg/libs)
+set(ENV{LD_LIBRARY_PATH} ${LD_LIBRARY_PATH})
+
+
 # 查找所有的 ffmpeg 动态库文件
 file(GLOB ffmpeg_dylibs ${ffmpeg_libs_dir}/*.dylib)
 

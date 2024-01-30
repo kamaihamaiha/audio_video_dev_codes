@@ -13,8 +13,9 @@
 常用工具：ffmpeg、ffplay、vlc
 
 步骤：
-1. 推流： 用 ffmpeg 把媒体文件推送到流媒体服务器
-2. 拉流： 用 ffplay 拉流
+1. 推流： 用 ffmpeg 把媒体文件推送到流媒体服务器：``ffmpeg -i input.mp4 -f flv rtmp://localhost/live/test``
+   
+2. 拉流： 用 ffplay 拉流: ``ffplay rtmp://localhost/live/test``
 
 #### 架构模型
 
