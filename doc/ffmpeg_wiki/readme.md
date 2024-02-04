@@ -13,3 +13,6 @@
 - [《FFmpeg从入门到精通》整理的笔记](../../ffmpeg_note/README.md)
 - [ffmpeg mac 上的开发实战](../../ffmpeg_tutorial/README.md)
 
+### 他人的博客
+
+- [罗上文 gitbook](https://ffmpeg.xianwaizhiyin.net/)
