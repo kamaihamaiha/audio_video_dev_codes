@@ -1,10 +1,14 @@
 #include <libavutil/log.h>
 #include <libavformat/avformat.h>
+#include <stdio.h>
+#include <unistd.h>
+
+const char* printPath();
 
 int main(int argc, char* argv[]){
 
   int ret;
-  const char* test_media_file = "./test.mp4";
+  const char* test_media_file = "../cmake-build-debug/test.mp4";
   AVFormatContext *fmt_ctx = NULL;
   // 设置日志级别
   av_log_set_level(AV_LOG_INFO);
@@ -26,4 +30,15 @@ int main(int argc, char* argv[]){
   avformat_close_input(&fmt_ctx);
 
   return 0;
+}
+
+const char* printPath(){
+    char cwd[1024];
+    if (getcwd(cwd, sizeof(cwd)) != NULL) {
+        printf("当前工作目录: %s\n", cwd);
+        return cwd;
+    } else {
+        perror("getcwd() 错误");
+        return NULL;
+    }
 }

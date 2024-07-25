@@ -3,6 +3,8 @@
 rm -rf output # clear temp dir
 mkdir output
 cd output
+export LD_LIBRARY_PATH=./demo/dep/FFmpeg/libs
+./configure --prefix=./demo/dep/FFmpeg --enable-gpl --enable-shared --enable-libx265
 
 cmake .. # 在临时目录中创建工程
 make

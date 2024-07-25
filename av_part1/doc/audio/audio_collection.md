@@ -36,6 +36,11 @@ ffmpeg -f avfoundation -i :0 out.wav
 
 - var: 变量
 - let: 常量
+- if else
+- switch case
+- for
+- while
+- func
 
 #### Swift 调用 C 语言
 
