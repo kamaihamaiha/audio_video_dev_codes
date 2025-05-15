@@ -1,0 +1,2108 @@
+(no author)
+A. Wilcox
+Aaron Boxer
+Aaron Colwell
+Aaron Graham
+Aaron Levinson
+Adam Chelminski
+Adam Hoka
+Adam Kent
+Adam Richter
+Adam Sampson
+Adam Thayer
+Adrian Drzewiecki
+Adrian Guzowski
+Adrian Ratiu
+Adrian Stutz
+Adriano Pallavicino
+Agatha Hu
+Agent Smith
+Agostino Sarubbo
+Aidan MacDonald
+Aidan Richmond
+Aidan Skinner
+Akemi
+Akihiro Tsukada
+Al@dneg.com
+Alan Curry
+Alan Kelly
+Alan Steremberg
+Alban Bedel
+Albert Astals Cid
+Albert Lee
+Alberto Delmas
+Alberto Delmás
+Alejandro Solozabal
+Aleksandr Slobodeniuk
+Aleksey Vasenev
+Aleksi Nurmi
+Alessandro Ghedini
+Alessandro Sappia
+Alex Agranovsky
+Alex Beregszaszi
+Alex Converse
+Alex Mogurenko
+Alex Rønne Petersen
+Alex Shumsky
+Alex Smith
+Alex Sukhanov
+Alex Xu (Hello71)
+Alex Zhukov
+Alexander Bilyak
+Alexander Bokovikov
+Alexander Chemeris
+Alexander Drozdov
+Alexander E. Patrakov
+Alexander Kanavin
+Alexander Kojevnikov
+Alexander Kravchenko
+Alexander S. Drozdov
+Alexander Strange
+Alexander Strasser
+Alexander V. Lukyanov
+Alexander Wichers
+Alexandra Hajkova
+Alexandra Hájková
+Alexandra Khirnova
+Alexandre Colucci
+Alexandre Heitor Schmidt
+Alexandre Lision
+Alexandre Sicard
+Alexei Svitkine
+Alexey Balekhov
+Alexey Titov
+Alexey Tourbin
+Alexis Ballier
+AlexisWilke
+Alfred E. Heggestad
+Allan Hsu
+Allan Kristensen
+Allan Sandfeld Jensen
+Allen Day
+Alok Ahuja
+Alok Priyadarshi
+Alyssa Milburn
+Aman Gupta
+Aman Karmani
+Aman Verma
+Ami Fischman
+Amir Pauker
+Anamitra Ghorui
+Anatoliy Wasserman
+Anatoly Nenashev
+Ancoron Luciferis
+Anders Grönberg
+Anders Nystrom
+Andre Anjos
+Andre Kempe
+Andre Wolokita
+Andrea Gianarro
+Andrea Gualano
+Andrea3000
+Andreas Cadhalpun
+Andreas Hakon
+Andreas Håkon
+Andreas Rheinhardt
+Andreas Rheinhardt via ffmpeg-devel
+Andreas Schneider
+Andreas Unterweger
+Andreas Weis
+Andreas Öman
+Andrei Rybak
+Andrej Peterka
+Andres Gonzalez
+Andres Mejia
+Andrew D'Addesio
+Andrew Dennison
+Andrew Euell
+Andrew Kelley
+Andrew Klaassen
+Andrew Rodland
+Andrew Ryan
+Andrew Savchenko
+Andrew Shulgin
+Andrew Stone
+Andrew Van Til
+Andrew Voznytsa
+Andrew Wason
+Andrey Myznikov
+Andrey Semashev
+Andrey Turkin
+Andrey Utkin
+Andrey Volk
+Andriy Gelman
+Andriy Lysnevych
+Andriy Rysin
+André Camargo
+André Pankratz
+Andy
+Andy Gocke
+Andy Martin
+Andy Parkins
+Andy Wu
+Aneesh Dogra
+Angelo Haller
+Anh
+Anne Aaron
+Anne-Laure de Smit
+Anselm Busse
+Anshul
+Anshul Maheshwari
+Anshul Maheswhwari
+Anssi Hannula
+Anthoine Bourgeois
+Anthony Delannoy
+Antoine Cellerier
+Anton Khirnov
+Anton Leontiev
+Anton Mitrofanov
+Anton Platov
+Anton Schubert
+Antonin Gouzer
+Antonio Morell
+Antonio Ospite
+Antti Seppälä
+Anuj Mittal
+Anuradha Suraparaju
+AppChecker
+Ard Oerlemans
+Arif Driessen
+Arnaud Bienner
+Arnaud Vrac
+Arne de Bruijn
+ArnoB
+Arpi
+Art Clarke
+Artem Galin
+Arthur Grant
+Arthur Taylor
+Arttu Ylä-Outinen
+Artur Grabowski
+Artyom Lebedev
+Arwa Arif
+Asad Mehmood
+Asen Lekov
+Ash Hughes
+Ashish Pratap Singh
+Ashish Singh
+Ashyni
+Assaf Yaari
+Atli Thorbjornsson
+Attila Kinali
+Aurelien Jacobs
+Avi Halachmi (:avih)
+Aviad Rozenhek
+Axel Holzinger
+Azamat H. Hackimov
+BERO
+BIGLER Don (Framatome)
+Balint Marton
+Baptiste Coudurier
+Bartlomiej Wolowiec
+Bartłomiej Wołowiec
+Bas Nieuwenhuizen
+Basel Sayeh
+Bastien Bouclet
+Bela Bodecs
+Ben Avison
+Ben Boeckel
+Ben Chang
+Ben Clayton
+Ben Hagen
+Ben Hutchings
+Ben Jackson
+Ben Littler
+Ben Taylor
+Benedict Endemann
+Benjamin Kerensa
+Benjamin Larsson
+Benjamin Steffes
+Benjamin Zores
+Benoit Fouet
+Bernd Bleßmann
+Bernd Kuhls
+Bernhard Rosenkränzer
+Bernhard Übelacker
+Bernie Habermeier
+Bill Eldridge
+Bill May
+Bill O'Shaughnessy
+Bill Pringlemeir
+Billy Shambrook
+Bitbreaker/METALVOTZE X
+Bjorn Roche
+Björn Axelsson
+Björn S
+Björn Sandell
+Bobby Bingham
+Bodecs Bela
+Bohan Li
+Bohdan Horst
+Bojan Zivkovic
+Boris Baracaldo
+Boris Maksalov
+Boris Nagels
+Boris Reisig
+Brad
+Brad Hards
+Brad Isbell
+Brad Smith
+Brandon Lees
+Brandon Mintern
+Brendan Hack
+Brendan Kehoe
+Brendan McGrath
+Bret Hughes
+Brett Harrison
+Brian Becker
+Brian Brice
+Brian Crowell
+Brian Foley
+Brian Kim
+Brian Matherly
+Brian Norris
+Brian Olson
+Brice Waegeneire
+Brion Vibber
+Bruce Dawson
+Bryan Huh
+Bryce McLeod
+Bryce W. Harrington
+Burkhard Plaum
+Burt P
+Byte
+Błażej Szczygieł
+C Chatterjee
+Calcium
+Caligula useraccount
+Calvin Walton
+Cameron Cawley
+Cameron Gutman
+Can Wu
+Carl
+Carl Eugen Hoyos
+Carl Hetherington
+Carlos Fernandez
+Cedric Vincent
+Chad Fraleigh
+ChanMin Kim
+Changjiang Wei
+Charles Liu
+Charles Yates
+Charlie Arnold
+Charlie Monroe
+Chema Gonzalez
+Chen Meng
+Chen,Wenbin
+Cheng Sun
+Chengfeng Ye
+Chih-Wei Huang
+Ching Yi, Chan
+Chip
+Chip Kerchner
+Chirag Lathia
+Chiranjeevi Melam
+Chris Berov
+Chris Cunningham
+Chris Evans
+Chris Flerackers
+Chris Halse Rogers
+Chris Kennedy
+Chris Miceli
+Chris Moeller
+Chris Rankin
+Chris Ribble
+Chris Spencer
+Chris Stones
+Chris Watkins
+Chris Wilson
+Chris \"Koying\" Browet
+Chriss
+Christian Feldmann
+Christian Hujer
+Christian Lohmaier
+Christian Schmidt
+Christian Suloway
+Christian d'Heureuse
+Christophe GISQUET
+Christophe Gisquet
+Christophe Lorenz
+Christophe Massiot
+Christophe Mutricy
+Christopher Degawa
+Christopher Snowhill
+Claudio Freire
+Clay McClure
+Clemens Ladisch
+Clifford Wolf
+Clément Bœsch
+Colin Leroy
+Colin McQuillan
+Colin NG
+Colin Ward
+Compn
+Corey Hickey
+Cosmin Stejerean
+Courtland Idstrom
+Craig Nicol
+Craig Thomasson
+Cyber Sinh
+Cyril Comparon
+Cyril Russo
+Cyrille Faucheux
+Cédric Schieli
+D Richard Felker III
+DHE
+Dale Curtis
+Damiano Galassi
+Damien Fetis
+Damien Riegel
+Dan Christiansen
+Dan Dennedy
+Dan Flett
+Dan Maas
+Dan Parrot
+Dan Sanders
+Dan Villiom Podlaski Christiansen
+Daniel Bomar
+Daniel Cardenas
+Daniel G. Taylor
+Daniel Glöckner
+Daniel Huang
+Daniel Kang
+Daniel Kolesa
+Daniel Kristjansson
+Daniel Kucera
+Daniel Maas
+Daniel Molkentin
+Daniel Moran
+Daniel Oberhoff
+Daniel Playfair Cal
+Daniel Serpell
+Daniel Verkamp
+Daniil Cherednik
+Danil Chapovalov
+Danil Iashchenko
+Danny Wu
+Dario Andrade
+Darren Horrocks
+Darryl Wallace
+Daryl Seah
+Dave Badia
+Dave Rice
+Dave Stevenson
+Dave Yeo
+David A. Sedacca
+David Bateman
+David Bolt
+David Bryant
+David Byron
+David Conrad
+David Czech
+David DeHaven
+David Flater
+David Fries
+David Goldwich
+David Hill
+David Holm
+David Holroyd
+David Kment
+David Lacko
+David Liu
+David Manouchehri
+David Michael
+David Mitchell
+David Monro
+David Murmann
+David Rosca
+David S. Miller
+Davinder Singh
+DeHackEd
+Deb Mukherjee
+Decai Lin
+Deliang Fu
+Denes Balatoni
+Denis Charmet
+Denis Fortin
+Dennis Melentyev
+Derek Buitenhuis
+Derk-Jan Hartman
+Deti Fliegl
+Deti fliegl
+Devin Heitmueller
+Di Wu
+Diederick Niehorster
+Diego Biurrun
+Diego Elio 'Flameeyes' Pettenò
+Diego Elio Pettenò
+Diego Pettenò
+Dieter
+Dilshod Mukhtarov
+Diogo Franco
+Dirk Ausserhaus
+Dirk Farin
+Djordje Pesut
+Dmitrii Ovchinnikov
+Dmitriy
+Dmitriy Kuminov
+Dmitry Antipov
+Dmitry Baryshkov
+Dmitry Borisov
+Dmitry Kalinkin
+Dmitry Monakhov
+Dmitry Rogozhkin
+Dmitry Samonenko
+Dmitry Vagin
+Dmitry Volyntsev
+Dominic Mayers
+Dominik Mierzejewski
+Dominique Leuenberger
+Don C. Bigler
+Don Moir
+Donald Ovcharov
+Dong, Jerry
+DongHoon Kang
+Donny Yang
+Doug Larrick
+Drew Hess
+Dujardin Bernard
+Duncan Salerno
+Dustin Brody
+Dyami Caliri
+Dylan Alex Simon
+Dylan Yudaken
+Dzung Hoang
+Earl Levine
+Ed Martin
+Ed Torbett
+Eddie Hao
+Eddie Pang
+Edgar Hucek
+Edouard Gomez
+Eduard Sinelnikov
+Eduardo Bragatto
+Edward Hervey
+Eejya Singh
+Eli Friedman
+Eli Kara
+Eloi BAIL
+Elvis Presley
+Elviss Strazdins
+Emanuel Czirai
+Emiliano Parasassi
+Enrique Arizón Benito
+Eran Kornblau
+Eric Buehl
+Eric Lasota
+Eric Paul
+Eric Petit
+Eric Sesterhenn
+Eric Zimmerman
+Erik Auerswald
+Erik Hovland
+Erik Olofsson
+Erik Slagter
+Erkki Seppälä
+Erwan Ducroquet
+Etienne Buira
+Eugene Dzhurinsky
+Eugene Lyapustin
+Even Wiik Thomassen
+Evgeniy Stepanov
+F.Sluiter
+Fabian Greffrath
+Fabian Neundorf
+Fabien Cosse
+Fabrice Bellard
+Fabrizio Gennari
+Facundo Gaich
+Falk Hüffner
+Fan Gang
+FeRD (Frank Dana)
+FearThe1337
+Federico Simoncelli
+Federico Tomassetti
+Fei Wang
+Felicia
+Felicia Lim
+Felipe Astroza
+Felipe Contreras
+Felix Abecassis
+Felix Bünemann
+Felix LeClair
+Felix Matouschek
+Felix von Leitner
+Felt, Patrick
+Femi Adeyemi-Ejeye
+Ferdinand Oeinck
+Fiona Glaser
+Flavio Pimentel Duarte
+Florent Le Coz
+Florent Tribouilloy
+Florian Diemer
+Florian Echtler
+Florian Jacob
+Florian Nouwt
+Fortin Denis
+Francesco Cosoleto
+Francesco Lavra
+Francisco Javier Cabello Torres
+Francois Cartegnie
+Francois Oligny-Lemieux
+Frank Barchard
+Frank Galligan
+Frank Heckenbach
+Frank Liberato
+Frank Vernaillen
+Franklin Phillips
+Frantisek Dvorak
+Franz Brauße
+François Revol
+Fred
+Fred Rothganger
+Frederic Jean
+Frederic Turmel
+Fredrik Axelsson
+Fredrik Hubinette
+Fredrik Orderud
+Frédéric Devernay
+Fu Linjie
+Gabor Nagy
+Gabriel Dume
+Gabriel Forté
+Gabucino
+Gael Chardon
+Gagandeep Singh
+Ganapathy Kasi
+Ganapathy Raman Kasi
+Ganesh Ajjanagadde
+Garrick Meeker
+Gaullier Nicolas
+Gaurav Narula
+Gautam Gupta
+Gautam Ramakrishnan
+Gavin Kinsey
+Gavin Smith
+Gavriloaie Eugen-Andrei
+Geek.Song
+Georg Lippitsch
+Georg Martius
+George Boyle
+George Floarea
+Georgi Chorbadzhiyski
+Georgi D. Sotirov
+Gerard Sole
+Gerion Entrup
+Gert Vervoort
+Geza Lore
+Giacomo Comes
+Gian-Carlo Pascutto
+Giancarlo Formicuccia
+Gianluigi Tiesi
+Gijs Peskens
+Gil Pedersen
+Gildas Bazin
+Gildas Cocherel
+Gildas Fargeas
+Gilles Bouthenot
+Gilles Chanteperdrix
+Giorgio Vazzana
+Glenn A. Serre
+Glenn Maynard
+Glyn Kennington
+Godwin Stewart
+Gonzalo Garramuno
+Gonzalo Garramuño
+Google
+Google Chrome
+Googleplex
+Gopu Govindaswamy
+Gordon Irlam
+Gorilla Maguila
+Graham Booker
+Grant Carver
+Greg Maxwell
+Greg Wessels
+Gregor Riepl
+Gregory J. Wolfe
+Gregory Maxwell
+Gregory Montoir
+Grzegorz Bernacki
+Guangyu Sun
+Guennadi Liakhovetski
+Guillaume LecrefECERF
+Guillaume Martres
+Guillaume Poirier
+Gunther Piez
+Guo Yejun
+Guo, Yejun
+Gustav Grusell
+Gustavo Sverzut Barbieri
+Gwenole Beauchesne
+Gyan Doshi
+Gábor Kovács
+Hagen Schmidt
+Haihao Xiang
+Hans Carlson
+Hans Zandbelt
+Hans-Kristian Arntzen
+Hanspeter Niederstrasser
+Hao Chen
+Harald Axmann
+Harald Gaechter
+Harald Karnet
+Harikrishnan Varma
+Harry Mallon
+Harshit Mittal
+Haruhiko Yamagata
+Hauke Duden
+Hayden Myers
+He Yang
+He, Fan F
+Heesuk Jung
+Heikki Lindholm
+Hein-Pieter van Braam
+Heliodoro Tammaro
+Helmut K. C. Tessarek
+Hendrik Leppkes
+Hendrik Schreiber
+Henning Haaland Kulander
+Henrik Gramner
+Henrik Gulbrandsen
+Henry Mason
+Herve W
+Hetz Ben Hamo
+Hii
+Himangi Saraogi
+Hirokazu Honda
+Hironori Bono
+Hiroyuki OYAMA
+Ho Ming Shun
+Hongcheng Zhong
+Howard Chu
+Hu Weiwen
+Huang, Zhengxu
+Hubert Mazur
+Hugo Beauzée-Luyssen
+Humberto Ribeiro
+Håvard Espeland
+I. Po
+Ian Braithwaite
+Ian Caulfield
+Ian Taylor
+Ico Doornekamp
+Idan Freiberg
+Igor Derzhavin
+Igor Mozolevsky
+Ihar A. Tumashyk
+Ilia
+Ilia Valiakhmetov
+Ilkka Ollakka
+Ilya
+Ilya Basin
+Ilya87
+Ingo Brückl
+Isaac Dooley
+Isaac Richards
+Ivan
+Ivan Baykalov
+Ivan Efimov
+Ivan Kalvachev
+Ivan Kovtunov
+Ivan Pozdeev
+Ivan Schreter
+Ivan Uskov
+Ivan Wong
+Ivo van Poorten
+J. Bohl
+J. Dekker
+JULIAN GARDNER
+Jaakko Perttilä
+Jacek Jendrzej
+Jacek Manko
+Jack Bruienne
+Jacob Graff
+Jacob Meuser
+Jacob Ruiz
+Jacob Siddall
+Jacob Trimble
+Jai Luthra
+Jai Menon
+Jake Sebastian-Jones
+Jakub Stachowski
+James A. Morrison
+James Almer
+James Cowgill
+James Darnley
+James Klicman
+James Morrison
+James Stembridge
+James Yu
+James Zern
+Jan Berkel
+Jan Ehrhardt
+Jan Ekström
+Jan Gerber
+Jan Knutar
+Jan Kratochvil
+Jan Sebechlebsky
+Janne Grunau
+Janne Salonen
+Janusz Krzysztofik
+Jarek Samic
+Jaroslav Beran
+Jason
+Jason Garrett-Glaser
+Jason Hsu
+Jason Jang
+Jason Millard
+Jason Stevens
+Jason Tackaberry
+Jasper Taylor
+Javier Cabezas
+Javier Garcia
+Jay Freeman
+Jay Ridgeway
+Jean Caillé
+Jean Delvare
+Jean First
+Jean-Baptiste Kempf
+Jean-Baptiste Mardelle
+Jean-Daniel Dupas
+Jean-Francois Thibert
+Jean-Tiare Le Bigot
+Jean-Yves Avenard
+Jean-Yves Simon
+Jeff Downs
+Jeff Muizelaar
+Jeffrey Wescott
+Jens Rosenboom
+Jens Ziller
+Jeremy Dorfman
+Jeremy Dorfman via ffmpeg-devel
+Jeremy Hinegardner
+Jeremy James
+Jeremy Kolb
+Jeremy Leconte
+Jeremy Mordkoff
+Jeremy Morton
+Jernej Fijacko
+Jernej Fijačko
+Jernej Virag
+Jerome Borsboom
+Jerome Martinez
+Jerry Jiang
+Jesper Ek
+Jesse Liu
+Jeyapal, Karthick
+Jérémy Tran
+Jian Yang
+Jiangjie Gao
+Jiasheng Jiang
+Jiaxun Yang
+Jiejun Zhang
+Jim DeLaHunt
+Jimmy Christensen
+Jin Bo
+Jindrich Makovicka
+Jindřich Makovička
+Jing Yu
+Joakim Plate
+Joakim Roubert
+Jochen Strunk
+Joe Olivas
+Joe Ratterman
+Joel Cunningham
+Joel Holdsworth
+Joel Linn
+Joel Yliluoma
+Joey Parrish
+Joey Smith
+Johan Andersson
+Johan Bilien
+Johan Ström
+Johannes Carlsson
+Johannes Feigl
+Johannes Kauffmann
+Johannes Nixdorf
+John Adcock
+John Adlum
+John Brooks
+John Coiner
+John Comeau
+John Cox
+John Dalgliesh
+John Donaghy
+John Fletcher
+John Horigan
+John Högberg
+John Peebles
+John Robinson
+John Rummell
+John Ryland
+John Schmiederer
+John Stebbins
+John Van Sickle
+John Wimer
+John-Paul Stewart
+Jon Morley
+Jon Toohill
+JonCookCubic
+JonHGee
+JonY
+Jonas Bechtel
+Jonas Licht
+Jonas Lindgren
+Jonathan Baecker
+Jonathan Baldwin
+Jonathan Baudanza
+Jonathan Campbell
+Jonathan Nieder
+Jonathan Wright
+Jonne Ahner
+Joose Sainio
+Jordi Ortiz
+Jorge Acereda
+Jorge Ramirez-Ortiz
+Jose Da Silva
+Joseph Artsimovich
+Joseph Wecker
+Josh Allmann
+Josh Brewster
+Josh Coalson
+Josh Dekker
+Josh Harris
+Josh Varner
+Josh de Kock
+Joshua Kordani
+Joshua Warner
+José Miguel Gonçalves
+Jovan Zelincevic
+João Bernardo
+Juan Carlos Rodriguez
+Juan De León
+Juanjo
+Julian Scheel
+Julian Scheid
+Julien Ramseier
+Jun Li
+Jun Zhao
+Justin
+Justin Bull
+Justin Greer
+Justin Jacobs
+Justin Johnson
+Justin Ruggles
+Jyrki Vesterinen
+Jérôme Martinez
+Jörg Krause
+Jörn Heusipp
+Jürgen Keil
+K.Y.H
+KM
+KO Myung-Hun
+Kacper Michajłow
+Kagami Hiiragi
+Kamil Nowosad
+Kanglin
+Kareila
+Kari Lentz
+Karl H. Beckers
+Karl Kiniger
+Karsten Otto
+Karthick J
+Karthick Jeyapal
+Katerina Barone-Adesi
+Katherine Nagels
+Kaustubh Raste
+Keiji Costantini
+Keith Lawson
+Kelly Anderson
+Kelly Ledford
+Ken Mandelberg
+Kenan Gillet
+Kenneth Aafløy
+Kent Mein
+Kevin Backhouse via RT
+Kevin Baragona
+Kevin Coyle
+Kevin Kuphal
+Kevin LaFlamme
+Kevin Mark
+Kevin Mitchell
+Kevin Wang
+Kevin Wheatley
+Keyun Tong
+Kharkov Alexander
+Kieran
+Kieran Kunhya
+Kieran O'Leary
+Kifayat ullah
+Kim Nguyen
+Kip Warner
+Kirill Gavrilov
+Kirill Savkov
+Kirill Zorin
+Kohn Emil Dan
+Konda Raju
+KongQun Yang
+Kongqun Yang
+Konrad Iturbe
+Konstantin Andreyev
+Konstantin Pavlov
+Konstantin Todorov
+Kostya
+Kostya Shishkov
+Kristian Amlie
+Kurosu
+Kurtnoise
+Kusanagi Kouichi
+Kyle
+Kyle Schwarz
+Kyle Swanson
+Kylie McClain
+LYF
+Larbi Joubala
+Lars Hammarstrand
+Lars Kiesow
+Lars Täuber
+Lasse Reinhold
+Laurent
+Laurent Aimar
+Laurent BRULET
+Laurent Desnogues
+Laurentiu Ion
+Lauri Kasanen
+Lazaros Koromilas
+Leandro Dorileo
+Leandro Santiago
+Lennert Buytenhek
+Lenny Wang
+Leo Izen
+Leo Zhang
+Leon van Stuivenberg
+Levis Florian
+Li Kai
+Li, Zhong
+Likai Liu
+Limin Wang
+Lingjiang Fang
+Linjie Fu
+Lionel CHAZALLON
+Lior Mualem
+LiuQi
+Liviu Oniciuc
+LoRd_MuldeR
+Loic Le Loarer
+LongChair
+Lord
+Loren Merritt
+Loren Osborn
+Lorenz Brun
+Lou Logan
+Loïc Le Loarer
+Lu Jiao
+Lu Wang
+Luca Abeni
+Luca Barbato
+Lucas Cooper
+Lucas Sandery
+Lucas de Andrade
+Lucy
+Ludmila Glinskih
+Lukas Rusak
+Lukas Stabe
+Lukasz Marek
+Lvqier
+Lynne
+Lyubomir Marinov
+Maarten Daniels
+Magnus Damm
+Magnus Röös
+Mahendra M
+Maksalov Boris
+Maksym Veremeyenko
+Malcolm Bechard
+Maneesh Gupta
+Manfred Georg
+Manfred Tremmel
+Manoj Bonda
+Manoj Gupta
+ManojGuptaBonda
+Mans Rullgard
+Manuel Stoeckl
+Marc Hoffman
+Marc Jeffreys
+Marc Mason
+Marc-Antoine Arnaud
+Marcelo Galvăo Póvoa
+Marcin Gorzel
+Marcin Juszkiewicz
+Marco Gerards
+Marco Gittler
+Marco Manfredini
+Marcus Engene
+Marcus Gustafsson
+Marcus Stollsteimer
+Marek Fort
+Marijn Meijles
+Mario Gasparoni
+Marios Titas
+Mariusz Szczepańczyk
+Mark Boorer
+Mark Cox
+Mark Gaiser
+Mark Goodman
+Mark Harris
+Mark Hills
+Mark Himsley
+Mark McGough
+Mark Plomer
+Mark Reid
+Mark Thompson
+Mark Visser
+Mark Wachsler
+Mark Weaver
+Mark Webster
+Mark Wu
+Marko Kreen
+Marth64
+Martijn van Beurden
+Martin
+Martin Aumüller
+Martin Boehme
+Martin Cracauer
+Martin Drab
+Martin Ettl
+Martin Fiedler
+Martin Lambers
+Martin Lindhe
+Martin Matuska
+Martin Olschewski
+Martin Panter
+Martin Sliwka
+Martin Storsjo
+Martin Storsjö
+Martin T. H. Sandsmark
+Martin Vignali
+Martin Vobruba
+Martin Zlomek
+Marton Balint
+Marvin Scholz
+Maryla
+Masa Utashiro
+Masaki Tanaka
+Mashiat Sarker Shakkhar
+Mason Carter
+Mate Sebok
+Mateusz
+Mathias Rauen
+Mathieu Duponchelle
+Mathieu Malaterre
+Mathieu Velten
+Mats Peterson
+Matsuzawa Tomohiro
+Matt Jacobson
+Matt Oliver
+Matt Robinson
+Matt Wolenetz
+Matteo Nastasi (mop)
+Matthew Einhorn
+Matthew Fearnley
+Matthew Gregan
+Matthew Heaney
+Matthew Hoops
+Matthew Lindner
+Matthew McKenna
+Matthew Oliver
+Matthew Szatmary
+Matthew White
+Matthias C. M. Troffaes
+Matthias Fritschi
+Matthias Hopf
+Matthias Hunstock
+Matthias Schneider
+Matthias Troffaes
+Matthieu Bouron
+Matthieu Castet
+Matthieu Crapet
+Matthieu Patou
+Matthijs Douze
+Matti Hamalainen
+Mattias Amnefelt
+Mattias Wadman
+Max Horn
+Max Justicz
+Max Krasnyansky
+Max Lazarov
+Max Poliakovski
+Max Shakhmetov
+Max Weber
+Maxim Andreev
+Maxim Poliakovski
+Maxim Polijakowski
+Maxime Jourdan
+Maximilian Seesslen
+Maxton
+Maxym Dmytrychenko
+Maya Rashish
+Mean
+Memphiz
+Meng Wang
+Mengye Lv
+Menno
+Metaksakis Georgios
+Micah F. Galizia
+Micah Galizia
+Michael Behrisch
+Michael Benjamin
+Michael Bradshaw
+Michael Bunk
+Michael Chinen
+Michael Donaghy
+Michael Dorr
+Michael Goulet
+Michael Graczyk
+Michael Ira Krufky
+Michael J. Walsh
+Michael Karcher
+Michael Kaufmann
+Michael Koch
+Michael Kostylev
+Michael Kuron
+Michael Lynch
+Michael McConnell
+Michael Niedermayer
+Michael Roitzsch
+Michael Schenk
+Michael Smith
+Michael Stoner
+Michael Stypa
+Michael T. Dean
+Michael Tison
+Michael Witten
+Michael Wootton
+Michal Novotny
+Michaël Cinquin
+Michał Górny
+Michel Bardiaux
+Michele Orrù
+Mickael Maison
+Mickaël Raulet
+Mihnea Balta
+Mika Raento
+Mikael Finstad
+Mike Brown
+Mike Edenfield
+Mike Frysinger
+Mike Melanson
+Mike Scheutzow
+Mike William
+Mike Williams
+Mikhail Mironov
+Mikhail Nitenko
+Mikulas Patocka
+Milan Cutka
+Miles Gould
+Milos Zivkovic
+Mina
+Mina Nagy Zaki
+Ming Qian
+Mingyu Yin
+Mirage Abeysekara
+Mirjana Vulin
+Mironov, Mikhail
+Miroslav Slugen
+Miroslav Slugeň
+Misty De Meo
+Mohamed Khaled Mohamed
+Mohamed Naufal
+Mohamed Naufal Basheer
+Mohammad Alsaleh
+Mohammad Izadi
+Monty Montgomery
+Moritz Barsnick
+Moritz Bunkus
+Morten Hustveit
+MrBoogs
+Muhammad Faiz
+Multiple Authors
+Mulvya
+Musee Ullah
+Måns Rullgård
+NVIDIA Corporation
+Nablet Developer
+Nachiket Tarate
+NagaChaitanya Vellanki
+Naoya OYAMA
+Nash Tsai
+Nathan Adil Maxson
+Nathan Caldwell
+Nathan Kurz
+Nazo
+Nedeljko Babic
+Neil Armstrong
+Neil Birkbeck
+Neil Brown
+Nekopanda
+Nelson Gomez
+NetSysFire
+Ni Hui
+Nicholas Robbins
+Nicholas Tung
+Nick Brereton
+Nick Kurshev
+Nick Lewycky
+Nick Renieris
+Nick Ruff
+Nico Sabbi
+Nico Weber
+Nicolas Bertrand
+Nicolas Boos
+Nicolas DEROUINEAU
+Nicolas Frattaroli
+Nicolas Gaullier
+Nicolas George
+Nicolas Jorge Dato
+Nicolas Kaiser
+Nicolas Martin
+Nicolas Martyanoff
+Nicolas Noirbent
+Nicolas Plourde
+Nicolas Roy-Renaud
+Nicolas Sugino
+Nidhi Makhijani
+Niel van der Westhuizen
+Niels Möller
+Nigel Pearson
+Nigel Touati-Evans
+Niki W. Waibel
+Niklas Haas
+Niklas Söderlund
+Niklesh
+Nikola Pajkovsky
+Nikolai Zhubr
+Nikolas Bowe
+Nikolas Bowe via ffmpeg-devel
+Nikolay Aleksandrov
+Nil Admirari
+Nilesh Bansal
+Niobos
+Nir Ben David
+Niv Sardi
+NoHalfBits
+Nolan L
+Nomis101
+Nuo Mi
+Oana Stratulat
+Octavio Alvarez
+Oded Shimon
+Oka Motofumi
+Ole Andre Birkedal
+Ole Dittmann
+Oleg Dobkin
+Oleksij Rempel
+Oliver Collyer
+Oliver Fromme
+Oliver Pfister
+Oliver Woodman
+Olivier Crête
+Olivier Guilyardi
+Olivier Langlois
+Olivier Maignial
+Omar Emara
+Omer Osman
+Oneric
+Onur Küçük
+Oskar Arvidsson
+Ovchinnikov Dmitrii
+OvchinnikovDmitrii
+Pablo Montilla
+Palle Lyckegaard
+Pan Bian
+Panagiotis H.M. Issaris
+Panagiotis Issaris
+Paolo Bizzarri
+Paras Chadha
+Pascal Massimino
+Patric Stout
+Patrice Bensoussan
+Patrice Clement
+Patrick Dehne
+Patrick Felt
+Patrick Keroulas
+Patrik
+Patrik Kullman
+Paul Arzelier
+Paul B Mahol
+Paul B. Mahol
+Paul Buxton
+Paul Curtis
+Paul Egan
+Paul Flinders
+Paul Kelly
+Paul Kendall
+Paul Sterne
+Pavel Koshevoy
+Pavel Nikiforov
+Pavel Pavlov
+Pavel Skakov
+Paweł Hajdan, Jr
+Paweł Wegner
+Pedro Arthur
+Pedro E. M. Brito
+Pekka Väänänen
+Perette Barella
+Pete Eberlein
+Peter B
+Peter Belkner
+Peter Collingbourne
+Peter Cordes
+Peter Große
+Peter Hall
+Peter Holik
+Peter Kovář
+Peter Krefting
+Peter Lundblad
+Peter Meerwald
+Peter Ross
+Peter Schlaile
+Peter Tissen
+Peter van der Spek
+Petr Doubek
+Petri Hintukainen
+Petru Rares Sincraian
+Petter Ericson
+Phil Barrett
+Phil Rutschman
+Philip DeCamp
+Philip Gladstone
+Philip Langdale
+Philip de Nier
+Philipp M. Scholl
+Philipp Matthias Hahn
+Philippe De Muyter
+Philippe Saint-Pierre
+Piero Bugoni
+Pierre Edouard Lepere
+Pierre Lejeune
+Pierre Lombard
+Pierre Yves MORDRET
+Pierre-Anthony Lemieux
+Pilotware
+Pino Toscano
+Piotr Bandurski
+Piotr Fusik
+Piotr Kaczuba
+Piotr Oleszczyk
+Piotr Tomasik
+Piotr Uracz
+Pranav Vaish
+Praveen Karadugattu
+Przemysław Sobala
+Qi Tiezheng
+Quoc Cuong Pham
+R. Brian Anderson
+Rafaël Carré
+Raffaele Sena
+Rahul Chaudhry
+Rainer Hochecker
+Raivo Hool
+Ralf Terdic
+Ramiro Polla
+Raphael Graf
+Raphaël Zumer
+Ravindra
+Ray Simard
+Ray Tiley
+Raymond Hilseth
+Reimar Döffinger
+Reinhard Nissl
+Reinhard Tartler
+Reino Wijnsma
+Reino17
+Remita Amine
+Rene Claus
+Rene Rebe
+Rens Dijkshoorn
+Reto Kromer
+Reuben Martin
+Reuben Thomas
+Reynaldo H. Verdejo Pinochet
+Ricardo Constantino
+Ricardo Monteiro
+Richard
+Richard Ayres
+Richard Buteau
+Richard Hodges
+Richard Ling
+Richard Shaffer
+Richard van der Hoff
+Rick Kern
+Rick van der Zwet
+Rico Tzschichholz
+Rl
+Rob Sykes
+Robert Bengtsson-Ölund
+Robert Edele
+Robert Krüger
+Robert Leatherwood
+Robert Lippmann
+Robert Marston
+Robert Nagy
+Robert Schlabbach
+Robert Swain
+Robert Xiao
+Roberto Togni
+Robin Cooksey
+Rocky Cardwell
+Rodney Baker
+Roger Pack
+Roger Pau Monné
+Roine Gustafsson
+Roland Scheidegger
+Romain Beauxis
+Romain Degez
+Romain Dolbeau
+Roman Arutyunyan
+Roman Arzumanyan
+Roman Beranek
+Roman Fietze
+Roman Ryltsov
+Roman Savchenko
+Roman Shaposhnik
+Romane Lafon
+Ronak Patel
+Ronald Bultje
+Ronald S. Bultje
+Ronaldo Moura
+Ronen Mizrahi
+Rong Yan
+Rosen Penev
+Ross Nicholson
+Rostislav Pehlivanov
+Roumen Petrov
+Roxis
+Roy Sigurd Karlsbakk
+Ruben Gonzalez
+Rudolf Polzer
+Rui Zhu
+Ruijing Dong
+Ruiling Song
+Ruiling, Song
+Rukhsana Ruby
+Rumin Sam
+Ruoyu
+Ruta Gadkari
+Ryan Martell
+Ryoji Gyoda
+Ryutaroh Matsumoto
+Rémi Denis-Courmont
+Rémi Guyomarch
+S.N. Hemanth Meenakshisundaram
+Saliev, Rafik F
+Sam Gerstein
+Sam Hocevar
+Sam John
+Sam John via ffmpeg-devel
+Sam Lantinga
+Sami Hult
+Sami Pietila
+Sami Pietilä
+Samuel Foss
+Samuel Pitoiset
+Samuli Valo
+Sascha Sommer
+Sasi Inguva
+Schenk, Michael
+Sean McGovern
+Sean Soria
+Sebastian Beckmann
+Sebastian Dröge
+Sebastian Jedruszkiewicz
+Sebastian Kirmayer
+Sebastian Pop
+Sebastian Ramacher
+Sebastian Sandberg
+Sebastian Vater
+Sebastien Bechet
+Sebastien Lucas
+Sebastien Zwickert
+Semen Belozerov
+Senthilnathan M
+Seppo Tomperi
+Sergey
+Sergey Kudryashov
+Sergey Lavrushkin
+Sergey Radionov
+Sergey Svechnikov
+Sergey Vlasov
+Sergey Volk
+Sergio Garcia Murillo
+Sergiy
+Sergiy Gur'yev
+Serhii Marchuk
+Shane
+Shannon Chen
+Shaofei Wang
+Shaun Simpson
+Shawn Rainey
+Shawn Singh
+Shehzad Salim
+Shiina Hideaki
+Shin-ichi Toyama
+Shitiz Garg
+Shivraj Patil
+Shiwang.Xie
+Shiyou Yin
+Shiz
+Shlomi Fish
+ShuangxiLi
+Shubhanshu Saxena
+Siarhei Siamashka
+Sidik Isani
+Sigbjorn Skjaeret
+Sigbjørn Skjæret
+Sigga Regina
+Signed-off-by: Jun Li
+Simon A. Eugster
+Simon Hailes
+Simon Thelen
+Simone Karin Lehmann
+Sisir Koppaka
+Sitan Liu
+Siyuan Huang
+Sjoerd Simons
+Slavik Gnatenko
+Soft Works
+SomeRGuy
+Sophia Wang
+Sourabh Sharma
+Speedy Gonzales
+Sprezz
+Srikanth G
+Srinath K R
+Stanislav Brabec
+Stanislav Dolganov
+Star Brilliant
+Stefan Fritsch
+Stefan Gehrer
+Stefan Huehner
+Stefan Kost
+Stefan Lucke
+Stefan Pöschel
+Stefan Schoenefeld
+Stefan _
+Stefan de Konink
+Stefano Pigozzi
+Stefano Sabatini
+Steinar H. Gunderson
+Stepan Bujnak
+Stephan Hilb
+Stephan Holljes
+Stephan Soller
+Stephan Vedder
+Stephen Backway
+Stephen D'Angelo
+Stephen Davies
+Stephen Dredge
+Stephen Hutchinson
+Stephen Seo
+Stephen Warren
+Steve Borho
+Steve Dierker
+Steve Jiekak
+Steve L'Homme
+Steve Lhomme
+Steven Boswell II
+Steven Johnson
+Steven Liu
+Steven M. Schultz
+Steven Robertson
+Steven Siloti
+Steven Walters
+Stian Selnes
+Stoian Ivanov
+Stuart Morris
+Ståle Kristoffersen
+Stéphane Cerveau
+Suman-
+Sumit Agarwal
+Supraja Meedinti
+Sven C. Dack
+Sven Dueking
+Sven Hesse
+Swaraj Hota
+Swinney, Jonathan
+Syed Andaleeb Roomy
+Sylvain Corré
+Sylvain Fabre
+Sylvain Laurent
+Sylvain Rabot
+Sysiphus
+Sébastien Brochet
+TADANO Tokumei
+TOYAMA Shin-ichi
+Takashi Mochizuki
+Takayuki 'January June' Suwa
+Takeshi (Kesh) Ikuma
+Takio Yamaoka
+Tanami, Ohad
+Tanja Batchelor
+Tao Huang
+Tatsuyuki Ishi
+Thad Ward
+Thadeu Lima de Souza Cascardo
+The makemkv authors
+Themaister
+Thiago Santos
+Thierry FAUCK
+Thierry Fauck
+Thierry Foucu
+Thijs
+Thijs Vermeir
+Thilo Borgmann
+Thomas Bernard
+Thomas Devanneaux
+Thomas Garnier
+Thomas Guilbert
+Thomas Guillem
+Thomas Hebb
+Thomas Jarosch
+Thomas Köppe
+Thomas Kühnel
+Thomas Lee
+Thomas Mundt
+Thomas Raivio
+Thomas Stephens
+Thomas Turner
+Thomas Volkert
+Thomas Weber
+ThomasVolkert
+Thorsten Jordan
+Tian Qi
+TianBo Zheng
+Tianqiang Liu
+Tilman Brock
+Tim Allen
+Tim Chick
+Tim Nicholson
+Tim W
+Tim Walker
+Tim.Nicholson
+Timo Lindfors
+Timo Rothenpieler
+Timo Teräs
+Timofei V. Bondarenko
+Timotej Lazar
+Timothy B. Terriberry
+Timothy Gu
+Timur Aydin
+Ting Fu
+Tinglin Liu
+Tinic Uro
+Tobias Bindhammer
+Tobias Rapp
+Tobias Stoeckmann
+Todd Kirby
+Tom Boshoven
+Tom Butterworth
+Tom Evans
+Tom Finegan
+Tom Harper
+Tom Joseph
+Tom Marecek
+Tomas Härdin
+Tomer Barletz
+Tommy Winther
+Tomás Touceda
+Tong Wu
+Tony Strauss
+Torsten Jager
+Torsten Martinsen
+Toshimitsu Kimura
+Trevor \\\\ Higgins
+Tristan Matthews
+Tristan Schmelcher
+Trystan Mata
+Tsutomu Seki
+Tsvetelina Borisova
+Tucker DiNapoli
+Tudor Suciu
+Tudor.Suciu
+Tuukka Toivonen
+Tyler
+Tyler Jones
+U. Artie Eoff
+Ubaldo Porcheddu
+Ulrich Spörlein
+Umair Khan
+Uoti Urpala
+Urvang Joshi
+Uwe L. Korn
+Vadim Belov
+Vadim Kalinsky
+Vadym Bezdushnyi
+ValdikSS
+Valerii Zapodovnikov
+Valeriy Argunov
+Valery Kot
+Vallimar
+Vardan Margaryan
+Vasile Toncu
+Vasyl' Vavrychuk
+Vesselin Bontchev
+Vicente Jimenez Aguilar
+Vicente Olivert Riera
+Victor Anjin
+Victor Lopez
+Victor Pollex
+Victor Vasiliev
+Victoria Zhislina
+Vidar Madsen
+Vignesh Ravichandran
+Vignesh Venkatasubramanian
+Vikas Agrawal
+Vilius Grigaliūnas
+Ville Skyttä
+Ville Syrjälä
+Vincent Bernat
+Vincent Fourmond
+Vincent Torri
+Vishwanath Dixit
+Vitaliy E Sugrobov
+Vitaly Buka
+Vitaly Ostrosablin
+Vitaly _Vi Shukela
+Vitor Sessak
+Vittorio Gambaletta (VittGam)
+Vittorio Giovara
+Vivekanand
+Vlad Tarca
+Vladimir Dergachev
+Vladimir Panteleev
+Vladimir Pantelic
+Vladimir Voroshilov
+Vladlen Y. Koshelev
+Vodyannikov Aleksandr
+Volker Moell
+Voyager1
+Víctor Paesa
+Wallak
+Wan-Teh Chang
+Wang Bin
+Wang Cao
+Wang Yaqiang
+Wang, Bin
+Warblefly
+Wei-Cheng Pan
+Wenbin Chen
+Wenlong Ding
+Wenxiang Qian
+WereCatf
+Werner Robitza
+Will Cassella
+Will Kelleher
+William Juwono
+William R. Zwicky
+William Yu
+Willy Aubry
+Wim Lewis
+Wim Vander Schelden
+Wolfgang Haupt
+Wolfgang Hesseler
+Wolfgang Müller
+Wolfgang Scherer
+Wolfram Gloger
+Wonkap Jang
+Wu Jianhua
+Wu Zhiwen
+Wujian(Chin)
+XBMC
+XV
+XhmikosR
+Xi Wang
+Xiangyu Liu
+Xiaofeng Wang
+Xiaohan Wang
+Xiaohui Sun
+Xiaolei Yu
+Xidorn Quan
+Xie, Lin
+Xinpeng Sun
+Xinzheng Zhang
+Xu Guangxin
+Xu Jun
+Xuchen Su
+Xuewei Meng
+Y.C. Liu
+Yaakov Selkowitz
+Yan Jing
+Yang Wang
+Yann Coupin
+Yao Peter
+Yao Wang
+Yaroslav Pogrebnyak
+Yartrebo
+Yayoi
+Yigit Uyan
+Yingming Fan
+Yiyuan GUO
+Yoav Steinberg
+Yogender Gupta
+Yogender Kumar Gupta
+Yondon Fu
+Yong
+Yong Lei
+Yonglin Luo
+Yordan Makariev
+Yoshihisa Uchida
+Young Han Lee
+Yu Xiaolei
+Yu Yang
+Yu-Jie Lin
+YuDenzel
+Yubo Xie
+Yue Heng
+Yuki Tsuchiya
+Yukinori Yamazoe
+Yuli Khodorkovskiy
+Yun Zhang
+YunQiang Su
+Yuri Zats
+Yuriy Kaminskiy
+Yusuke Nakamura
+Yuuki Galaxy
+Zachariah Brown
+Zachary Zhou
+Zalewa
+Zalewa PL
+Zane van Iperen
+Zdenek Kabelac
+Zeng Zhaoxiu
+Zhang Rui
+Zhang yuankun
+Zhao Zhili
+Zhaoxiu Zeng
+Zhengxu
+Zhentan Feng
+Zhihang Wang
+Zhong Li
+Zhou Xiaoyong
+Zhou Zongyi
+ZhouXiaoyong
+Ziemowit Laski
+Zixing Liu
+Zohar Kelrich
+Zoltan Kovacs
+Zoltán Hidvégi
+Zongyao Qu
+Zuxy Meng
+addr-see-the-website@aetey.se
+agathah
+alahuja
+alexander schmid
+alexandru_mg3
+ami_stuff
+anatolschwarz
+anatoly
+anonymous
+arwa arif
+asilvestre
+asivery
+avcoder
+banastasov
+batguano999
+bbraun
+bevis
+bnnm
+borat@subsense.com
+bruce-wu
+bubu
+burek
+bwang30
+caleb
+caohui
+chcunningham
+chinshou
+clook
+clsid2
+compn
+corp186
+csheng
+d s
+danielgtaylor
+db0
+db0company
+dedicatedbroadcastsolutions
+dericed
+dhead666
+diane_cartman@gmx.de
+drfer3
+dronus
+dsmudhar
+dvhh
+dxfhgwet
+ePirat
+elliottk
+elupus
+emcodem
+enctac
+erankor
+exwm
+ferdo@bigroses.nl
+flybird2k@gmail.com
+foo86
+fumoboy007
+fuqiuping
+galinart
+gavin zhang
+gcocherel
+gerion.entrup@t-online.de
+gnattu
+goodthanks
+greg Luce
+gs_gail
+guikunzhi
+gxw
+haim alon
+hakuya
+hax@riseup.net
+heimdallr
+hexpointer
+highgod0401
+huheng
+hwren
+hwrenx
+hydra3333
+j@v2v.cc
+jackarain
+jamal
+jan gerber
+jb@kdenlive.org
+jerett
+jessejiang
+joca@rixmail.se
+joepadmiraal
+jwestfall@surrealistic.net
+kaptnole
+kemuri
+kieranjol
+kjeyapal@akamai.com
+kowalsky
+kweiner@spamcop.net
+kyh96403
+lance.lmwang@gmail.com
+lars.taeuber@web.de
+lee ju
+lemonlinger@gmail.com
+leozhang
+liu jc
+longstone
+lummax
+lvqcl
+macweng
+mail@nodoa.me
+maryam ebr
+maryam ebrahimzadeh
+maxlazarov
+michael
+mplayer developers
+mrlika
+mrskman
+multiple authors
+nu774
+nyanmisaka
+olugbone
+parazyd
+pascal massimino
+phunkyfish
+pin xue
+pkviet
+plepere
+popcornmix
+qoroliang
+qrtt1
+quietvoid
+raxon1s
+raymondzheng
+raymondzheng1412@gmail.com
+rcombs
+rogerdpack
+root
+royger
+rsn8887
+ruiquan.crq
+sanil
+sanilraut
+schenk michael
+sebist
+sedacca@comcast.net
+selsta
+sfan5
+sgerwk
+shahriman AMS
+sharpbai
+shinya.tesutosan@hotmail.com
+shubhanshu02
+skal
+slhck
+smallishzulu
+smitbose
+softworkz
+songyutong
+srikanth
+stuhlo
+sumit
+summertriangle.dev@gmail.com
+tab
+tateu
+the.real.laplace@gmail.com
+tiejun.peng
+tiejun.peng@foxmail.com
+tipok
+tjcannell@blueyonder.co.uk
+tjraivio@cc.hut.fi
+tomajsjiang
+tpol
+tralph11@yahoo.com
+tripp
+trueice@gmail.com
+tue46wsdgxfjrt
+u-bo1b@0w.se
+unknown author
+upsuper
+vacingfang
+vectronic
+vkot
+vle
+wang-bin
+wangxingchao
+wanzhang
+wg
+wm4
+xiaofeng
+xufuji456
+yang
+yuanhecai
+yukari yakumo
+zhaoxiu.zeng
+zheng qian
+zhentan feng
+zhilizhao
+zhongli_dev@126.com
+zjh8890
+zylthinking
+Øyvind Kolås
+İsmail Dönmez
+Łukasz Krzciuk
+李赞
+孙浩 and 张洪亮(望初)
+孙浩(晓黑)
+俞晓磊
+周晓勇
+赵宇龙
+内田佳久
+Серж Нискородов
+Михаил Муковников
+Александр Слободенюк
