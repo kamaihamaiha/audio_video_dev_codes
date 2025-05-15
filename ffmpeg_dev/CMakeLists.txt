@@ -8,16 +8,18 @@ set(CMAKE_C_STANDARD 99)
 # ffmpeg 安装路径，可以用 brew info ffmpeg 获取
 #get_filename_component(parent_dir ${PROJECT_SOURCE_DIR} DIRECTORY)
 #set(FFMPEG_DIR “${parent_dir}/ffmpeg_tutorial/demo/dep/FFmpeg”)
-# set(FFMPEG_DIR /usr/local/ffmpeg)
+# 我自己的 nuc 黑苹果 上
+ set(FFMPEG_DIR /usr/local/ffmpeg)
 # 我自己的 MacBook Pro 上
-set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
+#set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.2.1_1)
 #set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.3.2_3)
 
 # SDL 安装路径
 #set(SDL_DIR /usr/local/Cellar/sdl2/2.0.14_1)
 # 我自己的 MacBook Pro 上
-set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
-#set(SDL_DIR /usr/local/Cellar/sdl2/2.26.2)
+#set(SDL_DIR /usr/local/Cellar/sdl2/2.0.10)
+# 我自己的 nuc 黑苹果 上
+set(SDL_DIR /usr/local/Cellar/sdl2/2.26.2)
 
 # ffmpeg 头文件
 include_directories(${FFMPEG_DIR}/include/)
