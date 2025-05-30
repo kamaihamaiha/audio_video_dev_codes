@@ -42,13 +42,25 @@ void adts_header(char *szAdtsHeader, int dataLen){
   szAdtsHeader[6] = 0xfc;
 }
 
+/**
+ * 1. 处理参数
+ * 2. 打开多媒体文件
+ * 3. 从多媒体文件中找到音频流
+ * 4. 打开输出文件上下文
+ * 5. 为输出文件创建一个新的音频流
+ * 6. 设置输出音频参数
+ * 7. 写多媒体文件头到输出文件
+ * 8. 从源多媒体文件中读音频数据到输出文件中
+ * 9. 写多媒体文件尾 到输出文件
+ * 10. 释放申请的资源
+ */
 int main(int argc, char* argv[]){
 
   int ret;
   int audio_index;
   size_t len;
-  const char* src = NULL;
-  const char* dst = NULL;
+  const char* src = NULL; // 源文件
+  const char* dst = NULL; // 输出文件
   const char* test_media_file = "./test.mp4";
   AVPacket pkt;
   AVFormatContext *fmt_ctx = NULL;
@@ -72,6 +84,7 @@ int main(int argc, char* argv[]){
     return -1;
   }
 
+  // step2: 打开多媒体文件
   // 第三个参数是格式，输入 NULL，就会根据实际的媒体文件后缀名解析文件
   ret = avformat_open_input(&fmt_ctx, src, NULL, NULL);
   if (ret < 0) {
@@ -92,7 +105,7 @@ int main(int argc, char* argv[]){
   // param4: 输出流（0）还是输出流（1）
   av_dump_format(fmt_ctx, 0, test_media_file, 0);
 
-  // step2: get stream:
+  // step3: get stream:
   // param2(流的信息，这里是音频流 AVMEDIA_TYPE_AUDIO)
   // param3(流的索引号，这里不知道，就填入 -1)
   // param4(相关流的索引号，这里不知道，就填入 -1)
