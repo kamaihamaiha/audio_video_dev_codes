@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import cn.kk.av.databinding.ActivityMainBinding;
+import cn.kk.av.ui.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     // Used to load the 'av' library on application startup.
     static {
