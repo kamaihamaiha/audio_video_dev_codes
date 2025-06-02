@@ -9,6 +9,8 @@ constraintlayout = "2.2.1"
 media3 = "1.6.0"
 kotlin = "2.1.0"
 coreKtx = "1.16.0"
+okhttp = "4.10.0"
+gson = "2.8.6"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -27,6 +29,9 @@ media3-datasource-okhttp = { group = "androidx.media3", name = "media3-datasourc
 media3-session = { group = "androidx.media3", name = "media3-session", version.ref = "media3" }
 media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+
+okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

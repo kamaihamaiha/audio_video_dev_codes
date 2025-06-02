@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Button styles-->
+    <style name="Button_Corner_Primary_Alpha">
+        <item name="android:background">@drawable/bg_shape_corner_primary_alpha</item>
+        <item name="android:foreground">@drawable/bg_press_dark_selector</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Button_Corner_Primary_Alpha_60" parent="Button_Corner_Primary_Alpha">
+        <item name="android:background">@drawable/bg_shape_corner_primary_alpha_60</item>
+    </style>
+</resources>

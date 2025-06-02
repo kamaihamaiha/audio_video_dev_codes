@@ -60,6 +60,9 @@ dependencies {
     implementation libs.media3.ui
     implementation libs.core.ktx
 
+    implementation libs.okhttp3
+    implementation libs.gson
+
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core

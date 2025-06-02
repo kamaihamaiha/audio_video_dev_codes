@@ -1,11 +1,8 @@
 package cn.kk.av;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import cn.kk.av.databinding.ActivityMainBinding;
 import cn.kk.av.ui.BaseActivity;
 
@@ -26,10 +23,16 @@ public class MainActivity extends BaseActivity {
         setContentView(binding.getRoot());
 
         // todo open next ui
-        binding.btnOpenPlayer.setOnClickListener(new View.OnClickListener() {
+        binding.btnMedia3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, PlayerActivity.class));
+            }
+        });
+        binding.btnFfmpeg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                startActivity(new Intent(MainActivity.this, PlayerActivity.class));
             }
         });
     }
